@@ -1,0 +1,70 @@
+//@import '../sass/_variables.scss';
+
+body {
+    font-family: 'Muller';
+    background: $bg-white;
+    overflow-x: hidden;
+
+}
+
+body > * {
+    padding-left: 13%;
+    padding-right: 13%;
+
+}
+
+@media (max-width: 768px) {
+    body > * {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    .content-gradient {
+        background-image: $background-gradient, url(../images/footballBackground.png) !important;
+    }
+    .footer__title {
+        margin-right: auto !important;
+
+    }
+
+
+}
+
+header {
+    background-color: $dark-blue;
+}
+
+.content-gradient {
+    background-image: $background-gradient;
+
+    & .rectangleBackground {
+        z-index: -1;
+        top: 0;
+        left: 0;
+
+        &__background {
+
+        }
+
+        &__white {
+            display: none;
+        }
+
+        &__blue {
+            display: none;
+        }
+
+        &__red {
+            display: none;
+        }
+    }
+
+}
+
+footer {
+    background-color: $dark-blue;
+}
+
+.footer__title {
+    margin-left: auto;
+    margin-right: 0;
+}

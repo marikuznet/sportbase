@@ -1,0 +1,33 @@
+models:
+  AccomodationType:
+    title: string:100
+  Option:
+    title: string:100
+  IncludedInAccomodationPricing:
+    title: string:100
+  Service:
+    title: string:100
+  SportType:
+    title: string:100
+  ObjectType:
+    title: string:100
+  Feedback:
+    date: timestamp
+    content: longtext
+    rating: float 
+controllers:
+  AccomodationType:
+    resource: web
+  Option:
+    resource: web
+  IncludedInAccomodationPricing:
+    resource: web
+  Service:
+    resource: web
+  SportType:
+    resource: web
+  ObjectType:
+    resource: web
+  Feedback:
+    resource: web
+seeders: AccomodationType, Option, IncludedInAccomodationPricing, Service, SportType, ObjectType, Feedback

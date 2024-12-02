@@ -1,0 +1,103 @@
+@import '../sass/_variables.scss';
+
+nav.navbar {
+    padding: 30px 0;
+
+    & .container {
+        align-items: flex-start;
+    }
+}
+
+.navbar {
+    &-brand {
+        margin-right: 70px;
+
+        &__logo {
+            color: #fff;
+            font-family: 'Muller', serif;
+            font-weight: 700;
+            font-size: 25px;
+
+            span {
+                color: $red;
+            }
+        }
+
+        &__description {
+            color: #fff;
+            opacity: .5;
+            font-family: 'Montserrat', serif;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    & .navbar-toggler {
+        border: none;
+        color: transparent;
+
+        &:focus {
+            border: none;
+        }
+    }
+
+    & .navbar-toggler-icon {
+        width: 22px;
+        height: 3px;
+        background: #fff none;
+        border-radius: 3px;
+        position: relative;
+        transition: .3s;
+
+        &::before, &::after {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 3px;
+            border-radius: 3px;
+            background: #fff;
+            transform-origin: center;
+            transition: .3s;
+            left: 0;
+        }
+
+        &::before {
+            top: -8px;
+        }
+
+        &::after {
+            top: 8px;
+        }
+    }
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    height: 0;
+
+    &::before, &::after {
+        top: 0;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link {
+    color: #fff;
+    padding: 0 15px 14px;
+
+    &:hover {
+        color: #fff;
+    }
+}

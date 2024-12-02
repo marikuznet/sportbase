@@ -1,0 +1,19 @@
+.button {
+    font-family: 'Muller', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background-color: #E45868;
+    padding: 13px 33px;
+    transition: .3s;
+}
+
+.button:hover {
+    background-color: #C54352;
+    box-shadow: 0 3px 9px #68101A2E;
+}
+
+.button:active {
+    background-color: #E45868;
+    box-shadow: 0 3px 9px #68101A2E;
+}

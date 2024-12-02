@@ -1,0 +1,263 @@
+.sb-view-news {
+    background-color: #F9F9F9;
+    min-height: 600px;
+}
+
+.sb-view-news .sb-content__breadcrumb {
+    background-color: transparent;
+    border-bottom: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sb-view-news__header .sb-header__title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sb-view-news__header .sb-date-and-view__date,
+.sb-view-news__header .sb-date-and-view__view {
+    font-size: 18px;
+}
+
+.sb-view-news__header .sb-date-and-view__view:before {
+    content: url('/icons/eye.svg');
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+
+.sb-view-news__header {
+    margin-bottom: 20px;
+}
+
+.sb-view-news__article {
+    //height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #BAC4DF;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.sb-view-news__article .sb-article__image {
+    position: relative;
+    overflow: hidden;
+    height: 405px;
+}
+
+.sb-view-news__article .sb-article__image img {
+    height: auto;
+    width: 100%;
+}
+
+.sb-view-news__article .sb-article__signature {
+    background: rgba(229, 237, 248, .5);
+    padding: 1rem !important;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sb-view-news__article .sb-article__subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.sb-article {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.sb-article .sb-article__text {
+    margin-bottom: 95px;
+}
+
+.sb-article .sb-text__list-program li {
+    list-style: none;
+    text-indent: -1em;
+}
+
+.sb-article .sb-text__list-program li:before {
+    content: '\2014';
+    padding-right: 5px;
+    color: #E45868;
+}
+
+.sb-view-news__social {
+    margin-bottom: 115px;
+}
+
+.sb-view-news__social .sb-social {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 14px 15px;
+    cursor: pointer;
+}
+
+.sb-view-news__social .sb-social .sb-logo {
+    margin-right: 24px;
+}
+
+.sb-view-news__social .sb-social .sb-action {
+    margin-right: 16px;
+    font-size: 16px;
+}
+
+.sb-view-news__social .sb-social .sb-col {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.sb-view-news__social .sb-social .sb-vk__col {
+    color: #2F90FF;
+}
+
+.sb-view-news__social .sb-social .sb-fb__col {
+    color: #5D78D1;
+}
+
+.sb-view-news__social .sb-social .sb-tw__col {
+    color: #59BFFF;
+}
+
+.sb-view-news__social .sb-social:nth-last-child(n+2) {
+    margin-right: 15px;
+}
+
+.sb-view-news__banner {
+    height: 819px;
+    border-radius: 10px;
+    background-image: url("/images/banners/hockey.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.sb-view-news__banner .sb-banner__background {
+    height: 819px;
+    width: 358px;
+}
+
+.sb-view-news__banner .sb-banner__data {
+    margin-left: 49px;
+    z-index: 1;
+}
+
+.sb-view-news__banner .sb-data__title {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 53px;
+    margin-bottom: 150px;
+}
+
+.sb-view-news__banner .sb-data__download {
+    margin-bottom: 0;
+}
+
+.sb-view-news__banner .sb-data__caption {
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.sb-view-news__banner .sb-download-btn {
+    background-color: #E45868;
+    width: 286px;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+.sb-view-news__banner .sb-download-btn:hover {
+    background-color: #c54352;
+}
+
+.sb-view-news__banner .sb-download-btn__app-store,
+.sb-view-news__banner .sb-download-btn__google-market {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.sb-view-news__banner .sb-download-btn__app-store {
+    margin-bottom: 12px;
+}
+
+.sb-view-news__banner .sb-download-btn__app-store span:before {
+    content: url('/icons/apple.svg');
+    margin-right: 15px;
+}
+
+.sb-view-news__banner .sb-download-btn__google-market span:before {
+    content: url('/icons/google-play.svg');
+    margin-right: 15px;
+}
+
+.sb-view-news__banner .sb-app-store__title,
+.sb-view-news__banner .sb-google-market__title {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #FFFFFF;
+}
+
+.sb-view-news__banner .sb-banner__hockey-player {
+    position: absolute;
+    width: 85%;
+    bottom: -1px;
+    right: -20px;
+    z-index: 0;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .sb-view-news__header .sb-date-and-view__date,
+    .sb-view-news__header .sb-date-and-view__view {
+        font-size: 13px;
+    }
+    .sb-view-news__header .sb-header__title {
+        font-size: 23px;
+        margin-bottom: 22px;
+    }
+    .sb-view-news_padding-0 {
+        padding: 0 !important;
+    }
+    .sb-view-news__article {
+        border: none;
+    }
+    .sb-view-news__article .sb-article__image {
+        height: 185px;
+    }
+    .sb-view-news__article .sb-article__signature {
+        font-size: 14px;
+    }
+    .sb-view-news__article .sb-article__subtitle {
+        font-size: 20px;
+    }
+    .sb-article .sb-article__text {
+        font-size: 14px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    .sb-view-news__social .sb-social:nth-last-child(n+2) {
+        margin-right: 5px;
+    }
+    .sb-view-news__social .sb-social .sb-action,
+    .sb-view-news__block-banner {
+        display: none;
+    }
+    .sb-view-news__block-social {
+        text-align: center;
+    }
+    .sb-view-news__social {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sb-view-news__block-banner {
+        display: none;
+    }
+    .sb-view-news__social {
+        margin-bottom: 50px;
+    }
+}

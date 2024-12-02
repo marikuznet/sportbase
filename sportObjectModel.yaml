@@ -1,0 +1,26 @@
+models:
+  SportObject:
+    title: string:100
+    objectType_id: id foreign:ObjectType.id
+    image: json
+    description: longtext
+    sportType_id: id foreign:SportType.id
+    accomodationConditionAndPricing_id: id foreign:AccomodationConditionAndPricing.id
+    infrastructure_id: id foreign:Infrastructure.id
+    city_id: id foreign:City.id
+    address: string:100
+    postIndex: integer
+    longtitude: float
+    latitude: float
+    rating: float
+    feedback_id: json
+    user_id: integer
+    hasPromotion: boolean
+    hasHighlightion: boolean
+    hasVIP: boolean
+    relationships:
+      hasMany: Feedback, SportType
+controllers:
+  SportObject:
+    resource: web
+seeders: SportObject

@@ -1,0 +1,301 @@
+body {
+    color: #0B3158;
+}
+
+.main-tender-request {
+    min-height: 600px;
+    background-color: #fafafa;
+}
+
+.main-tender-request .breadcrumb {
+    background-color: transparent;
+    border: none
+}
+
+.main-tender-request .request-tender,
+.main-tender-request .tender-body {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-tender-request .title_page .title {
+    font-size: calc(1.875rem);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0B3158;
+}
+
+.main-tender-request .title_page .subtitle {
+    color: #0B3158;
+    font-size: calc(1.375rem);
+}
+
+.request-tender .block-hr hr {
+    height: 5px;
+    color: #E45868;
+    width: 54px;
+}
+
+.block_opportunities .check-opportunity::before {
+    width: 31px;
+    height: 31px;
+    content: url("/icons/tenders/check-mark-red.svg");
+}
+
+.block_opportunities .opportunity p {
+    font-size: calc(1.187rem);
+    color: #0B3158 !important;
+    padding-left: 1rem !important;
+}
+
+.block_opportunities .opportunity {
+    border-radius: 10px;
+    border: 1px solid #BAC4DF;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.tender-body .sport-type-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tender-body .sport-type-list__item:not(:last-child) {
+    margin-right: 5px;
+}
+
+.tender-body .sport-type-list__item {
+    border: 2px solid #6283e5;
+    padding: 14px 14px 14px 18px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.tender-body .sport-type-list__item span::before {
+    content: url("/icons/tenders/close-button.svg");
+    width: 13px;
+    height: 13px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.tender-body .caption,
+.tabRegister .caption,
+.tabLogin .caption {
+    color: #32325D;
+    font-weight: bold;
+    font-size: calc(1.25rem);
+}
+
+.tender-body .typeSport,
+.tender-body .requirementsInfrastructure,
+.tender-body .regionEvent,
+.tender-body .typeFood,
+.tender-body .blockPrice,
+.tender-body .dopServices {
+    border-bottom: 1px solid #BAC4DF;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.dopServices .label-radio-wrapp__label,
+.typeFood .label-radio-wrapp__label {
+    font-weight: 400;
+    font-size: calc(1.187em);
+}
+
+.dopServices .label-radio-wrapp__label:not(:last-child),
+.typeFood .label-radio-wrapp__label:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.main-tender-request .label-radio-wrapp {
+    margin-right: 0.5rem;
+}
+
+.notification .text__Notification {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+}
+
+.notification .text__Notification .text {
+    font-size: calc(1.125rem);
+    color: #32325D;
+}
+
+.notification .text__Notification .image__notification {
+    width: 30px;
+}
+
+.blockFooter .customer {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.main-tender-request .buttonSend {
+    padding-bottom: 110px;
+}
+
+.non-authorized-tender .button-blue,
+.non-authorized-tender .button-border {
+    border-radius: 10px;
+    font-weight: normal !important;
+}
+
+.main-tender-request .non-authorized-tender {
+    border-radius: 15px;
+    border: 2px solid #E45868;
+}
+
+.caption .additionally {
+    font-weight: normal;
+}
+.caption .additionally.text-invalid-notif {
+    color: rgb(243, 122, 138) !important;
+}
+
+.titleTender .caption {
+    color: #0B3158 !important;
+    font-weight: bold;
+}
+
+.blockResponseBody .caption {
+    color: #32325D;
+    font-weight: bold;
+    font-size: calc(1.25rem);
+}
+
+.typeSport .sport-type-list__item {
+    border: 2px solid #6283e5;
+    padding: 14px 14px 14px 18px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.typeSport .sport-type-list__item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.typeSport .sport-type-list__item span::before {
+    content: url("/icons/tenders/close-button.svg");
+    width: 13px;
+    height: 13px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.type-list-border__item {
+    border: 2px solid #6283e5;
+    padding: 14px 14px 14px 18px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.type-list-border__item:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+.type-list-border__item span::before {
+    content: url("/icons/tenders/close-button.svg");
+    width: 13px;
+    height: 13px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.label-radio-wrapp:not(:last-child) {
+
+    margin-right: 0.5rem;
+}
+
+.regionEvent label.caption,
+.dopServices .caption,
+.typeFood .caption,
+.blockPrice .caption,
+.typeSport .caption,
+.requirementsInfrastructure .caption {
+    color: #32325D;
+    font-weight: bold;
+    font-size: calc(1.25rem);
+}
+
+
+.blockPrice .comment {
+    font-size: calc(1.125rem) !important;
+}
+
+
+@media (max-width: 960px) {
+    .main-tender-request .title_page .title {
+        font-size: calc(1.375rem);
+    }
+    .main-tender-request .title_page .subtitle {
+        font-size: calc(1rem);
+    }
+    .block_opportunities .opportunity p {
+        font-size: calc(1rem);
+        padding-right: 5rem;
+    }
+    .regionEvent .leftPart {
+        display: block !important;
+    }
+    .regionEvent .rightPart {
+        display: block !important;
+    }
+    .caption .additionally {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .typeFood .label_radio,
+    .dopServices .label_radio {
+        flex-wrap: wrap;
+    }
+    .blockFooter .customer {
+        flex-wrap: wrap;
+    }
+    .notification .text__Notification {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .notification .image__notification {
+        padding-bottom: 1rem;
+    }
+    .buttonSend button {
+        width: 300px !important;
+        bottom: -30px !important;
+        position: absolute !important;
+    }
+    .content__tenderCatalog .middle .content__wrapper .tenders__el__title .userImage {
+        width: 40px !important;
+    }
+    .blockPrice .comment {
+        font-size: calc(0.81rem) !important;
+    }
+    .label-radio-wrapp__label {
+        height: 40px !important;
+    }
+    .content__tenderCatalog .middle .content__wrapper .tenders__el__comment .responce {
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .active-archive__button {
+        //flex-direction: column;
+    }
+}
+@media (max-width: 1199px) {
+    .filter-menu-row {
+        flex-direction: column;
+    }
+    .filter-menu-row .search-and-filter {
+        padding-top: 0 !important;
+    }
+}

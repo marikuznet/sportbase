@@ -1,0 +1,115 @@
+.swiper {
+    height: 300px;
+    width: 100%;
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        background-color: #fff;
+    }
+}
+
+.btn-yes {
+    background-color: #6283E5;
+    color: white;
+    font-weight: bold;
+
+    :hover {
+        background-color: #3963df;
+    }
+}
+
+.select-wrapper .v-select .arrow-down {
+    position: relative;
+    //top: -8px;
+}
+
+button.borderBlue {
+    border: 1px solid #BED0E2 !important;
+}
+
+.quillWrapper {
+    border: 1px solid #BAC4DF !important;
+    border-radius: 10px !important;
+    //height: 100% !important;
+}
+
+.quillWrapper .ql-snow.ql-toolbar {
+    border: none !important;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.ql-container.ql-snow {
+    border: none !important;
+    height: 200px;
+}
+
+.sb-bg {
+    &-grey {
+        background: #fafafa;
+    }
+}
+
+.sb-color {
+    &-green {
+        color: #6FB77F;
+    }
+
+    &-main-blue {
+        color: #0B3158;
+    }
+}
+
+@media (max-width: 960px) {
+    .mobile {
+        &-font-weight-bold {
+            font-weight: bold;
+        }
+    }
+}
+
+label.label-radio-wrapp__label {
+    display: flex;
+    align-items: center;
+}
+
+.border-bottom-rounded-10 {
+    border-radius: 0 0 10px 10px;
+}
+
+.border-top-solid {
+    border-top: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.border-bottom-solid {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    //opacity: 0;
+}
+
+.border-radius__10 {
+    border-radius: 10px !important;
+}
+
+.countActive {
+    background-color: white;
+    color: #2D297D;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 5px;
+}
+
+.min-vw-0 {
+    min-width: 0 !important;
+}
+
+.fw-light {
+    font-family: "Muller Light", serif;
+}

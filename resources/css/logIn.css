@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+  .bottom-logIn {
+    width: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .middle__button:after {
+    font-size: 16px !important;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 10px !important;
+  }
+}
+
+.middle__button {
+  position: relative;
+}
+
+.middle__button:after {
+  content: url(../icons/next.svg);
+  font-size: 23px;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  top: 5px;
+  right: 5px;
+}
+/*# sourceMappingURL=logIn.css.map */

@@ -1,0 +1,96 @@
+.is-invalid {
+    color: rgb(243, 122, 138) !important;
+    border: 1px solid rgb(243, 122, 138) !important;
+}
+
+.title-block .title-block__caption {
+    color: #0B3158 !important;
+    font-weight: bold;
+}
+
+.estimate-content p {
+    font-size: calc(1.25rem);
+    color: #0B3158;
+}
+
+.estimate-container .title-estimate, .estimate-container .type-food p,
+.table-days-training__time p {
+    font-size: calc(1.25rem);
+    color: #0B3158 !important;
+}
+
+.estimate-price, .checkBox .checkBox__title,
+.table-rent table,
+.table-days-training table,
+.table-days-training .table-days-training__time input,
+.block-transfer .block-transfer__caption,
+.block-laundry .block-laundry__caption {
+    font-size: calc(1.25rem) !important;
+    color: #0B3158
+}
+
+.checkBox label span {
+    height: 31px;
+    width: 30px;
+    border: 1px solid gray;
+    display: inline-block;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.checkBox .checkBox__check[type=checkbox]:checked + span:before { /* <-- ставим иконку, когда чекбокс включен  */
+    content: url('/icons/settings/check-mark.svg');
+    top: 2px;
+    left: 3px;
+    font-size: 23px;
+}
+
+.table-rent table input,
+.table-days-training table input {
+    font-size: calc(1rem) !important;
+}
+
+.training-list__item label {
+    font-size: calc(1rem) !important;
+}
+
+.table-days-training .table-days-training__title label {
+    width: 25%;
+}
+
+@media (max-width: 630px) {
+    .estimate-container .title-estimate, .estimate-container .type-food p {
+        font-size: calc(1rem);
+    }
+
+    .estimate-price, .checkBox .checkBox__title,
+    .table-rent table,
+    .table-days-training table,
+    .table-days-training .table-days-training__time input,
+    .block-transfer .block-transfer__caption,
+    .block-laundry .block-laundry__caption,
+    .table-days-training__time p {
+        font-size: calc(0.875rem) !important;
+        color: #0b3158
+    }
+
+    .estimate-content p {
+        font-size: calc(0.875rem);
+    }
+
+    .table-rent table input,
+    .table-days-training table input {
+        font-size: calc(0.70rem) !important;
+    }
+
+    .training-list__item label {
+        font-size: calc(0.70rem) !important;
+    }
+
+    .pagination__button a, .pagination__button button {
+        font-size: calc(0.875rem);
+        width: auto !important;
+    }
+}

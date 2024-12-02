@@ -1,0 +1,100 @@
+nav.navbar {
+    padding: 30px 0;
+}
+
+nav.navbar .container {
+    align-items: flex-start;
+}
+
+.navbar-brand {
+    margin-right: 70px;
+}
+
+.navbar-brand__logo {
+    color: #fff;
+    font-family: 'Muller';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-brand__logo span {
+    color: #E45868;
+}
+
+.navbar-brand__description {
+    color: #fff;
+    opacity: .5;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.navbar .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+    color: transparent;
+}
+
+.navbar .navbar-toggler:focus {
+    border: none;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: none;
+    width: 22px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+    position: relative;
+    transition: .3s;
+}
+
+.navbar .navbar-toggler-icon::before, .navbar .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 3px;
+    border-radius: 3px;
+    background: #fff;
+    transform-origin: center;
+    transition: .3s;
+    left: 0;
+}
+
+.navbar .navbar-toggler-icon::before {
+    top: -8px;
+}
+
+.navbar .navbar-toggler-icon::after {
+    top: 8px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    height: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before, .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    top: 0px;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
+    transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
+    transform: rotate(-45deg);
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link {
+    color: #fff;
+    padding: 0px 15px 14px;
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link:hover {
+    color: #fff;
+}

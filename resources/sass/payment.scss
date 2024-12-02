@@ -1,0 +1,176 @@
+.block__address-main .additionally {
+    font-weight: normal;
+    font-size: calc(1.125rem);
+    color: #0B3158;
+}
+
+.block-payment .title__block .caption {
+    color: #0B3158;
+}
+
+.block-payment .title__block {
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.block-payment .details {
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.details_payment .caption {
+    color: #32325D !important;
+    font-size: calc(1.19rem);
+    font-weight: bold;
+}
+
+.block-estimate .notif {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #BAC4DF;
+}
+
+.block-estimate .notif__text {
+    display: flex;
+    align-items: center;
+}
+
+.block-estimate .notif p {
+    font-size: calc(1.25rem);
+    color: #0B3158;
+}
+
+.block-estimate .btn_arbitration button {
+    border-radius: 5px !important;
+}
+
+.block-estimate .btn_arbitration.upload-btn {
+    margin-right: 1rem;
+}
+
+.block-estimate .btn_arbitration.upload-btn button {
+    width: max-content;
+}
+
+.block-estimate .border-blue {
+    color: #6283E5 !important;
+    border: 1px solid #6283E5 !important;
+}
+
+.block-estimate .border-green {
+    color: #6FB77F !important;
+    border: 1px solid #6FB77F !important;
+}
+
+.block-estimate .button-blue {
+    color: white !important;
+    border: none !important;
+    background-color: #6283E5 !important;
+}
+
+.add-referee .title-referee {
+    font-size: calc(1.125rem);
+    color: #E45868;
+}
+
+.add-referee .name .caption {
+    color: #0B3158;
+    font-size: calc(1.125rem);
+    font-weight: bold;
+}
+
+.add-referee .name .sub-caption {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.add-referee .message-referee {
+    background-color: white;
+    border: 1px solid #E45868;
+    border-radius: 10px;
+}
+
+.add-referee .message-referee p {
+    font-size: calc(1.06rem);
+    color: #0B3158;
+}
+
+@media (min-width: 1200px) {
+    .main-payment .container {
+        padding-bottom: 1.5rem !important;
+        padding-top: 1.5rem !important;
+    }
+
+    .select-wrapper .v-select-toggle .arrow-down::after {
+        top: 35%;
+        right: 20px;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .input-profile-info {
+        height: 45px !important;
+    }
+
+    .select-wrapper .v-select-toggle {
+        height: 45px !important;
+    }
+
+    .select-wrapper .v-select-toggle .arrow-down::after {
+        top: 21%;
+        right: 20px;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .block-estimate {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .block-estimate .notif, .transaction_management .notif {
+        flex-wrap: wrap;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .block-estimate .notif p, .transaction_management .notif p {
+        color: #59728B;
+        font-size: calc(0.875rem);
+    }
+    .block-estimate .btn_arbitration {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10% !important;
+    }
+    .block-estimate .btn_arbitration button {
+        width: 100% !important;
+    }
+    .block-estimate .btn_arbitration .button-blue {
+        margin-top: 10px !important;
+    }
+    .block-estimate .border-blue {
+        color: #0B3158 !important;
+    }
+    .block-estimate .notif__text {
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .transaction_management {
+        margin-right: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .add-referee {
+        flex-wrap: wrap;
+    }
+    .add-referee .left {
+        margin-bottom: 25px;
+    }
+    .add-referee .left, .add-referee .right {
+        width: 100% !important;
+    }
+    .add-referee .title-referee, .add-referee .name .caption {
+        font-size: calc(1rem) !important;
+    }
+    .add-referee .name .sub-caption, .message-referee p {
+        font-size: calc(0.875rem) !important;
+    }
+}

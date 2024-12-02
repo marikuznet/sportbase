@@ -1,0 +1,81 @@
+
+body {
+  font-family: 'Muller';
+  background: #FAFAFA;
+  overflow-x: hidden;
+}
+
+
+/*
+body>*{
+    padding-left: 13%;
+        padding-right: 13%;
+
+    }*/
+@media (max-width: 768px) {
+  .content {
+    padding-left: 9%;
+    padding-right: 9%;
+  }
+  .content-gradient {
+    background-position: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2d297d), to(rgba(45, 41, 125, 0.8))), url('../images/footballBackground.png') !important;
+    background-image: linear-gradient(to bottom, #2d297d 0%, rgba(45, 41, 125, 0.8) 100%), url('../images/footballBackground.png') !important;
+  }
+  .footer__title {
+    margin-right: auto !important;
+  }
+}
+
+header {
+  background-color: #2D297D;
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .content-gradient {
+    height: calc(100vh - 140px);
+  }
+}
+
+.content-gradient {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2d297d), to(rgba(45, 41, 125, 0.8)));
+  background-image: linear-gradient(to bottom, #2d297d 0%, rgba(45, 41, 125, 0.8) 100%);
+}
+
+.content-gradient .rectangleBackground {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.content-gradient .rectangleBackground__rectangles {
+  bottom: -70px;
+  z-index: 1;
+  right: -50px;
+}
+
+.content-gradient .rectangleBackground__rectangles img {
+  margin-right: -30px;
+  vertical-align: bottom;
+}
+
+.content-gradient .rectangleBackground__rectangles-blue {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.content-gradient .rectangleBackground__rectangles-red {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+footer {
+  background-color: #2D297D;
+}
+
+.footer__title {
+  margin-left: auto;
+  margin-right: 0;
+}
+/*# sourceMappingURL=background.css.map */

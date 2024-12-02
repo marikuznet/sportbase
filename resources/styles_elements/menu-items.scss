@@ -1,0 +1,30 @@
+@import '../sass/_variables.scss';
+
+.nav {
+    display: inline-flex;
+    position: relative;
+}
+
+.nav-item {
+  transition: .3s;
+  z-index: 1;
+  
+}
+
+.nav-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+.nav-item:not(.is-active):hover { color: #333; }
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: .4s;
+  height: 1px;
+  z-index: 1;
+  background: $red;
+}

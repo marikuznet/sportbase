@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddSportObjectToResponsesTenders extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('responses_tenders', function (Blueprint $table) {
+            $table->foreignId('sportObject_id')->nullable()->after('infoCompany_id')->constrained('sport_objects');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('responses_tenders', function (Blueprint $table) {
+            $table->dropColumn('sportObject_id');
+        });
+    }
+}

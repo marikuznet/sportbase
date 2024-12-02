@@ -1,0 +1,34 @@
+.nav {
+  
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+}
+
+.nav-item {
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: 1;
+}
+
+.nav-item:not(.is-active):hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+
+.nav-item:not(.is-active):hover {
+  color: #333;
+}
+
+.nav-indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  height: 1px;
+  z-index: 1;
+  background: #E45868;
+}
+/*# sourceMappingURL=menu-items.css.map */

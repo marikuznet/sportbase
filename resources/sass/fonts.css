@@ -1,0 +1,54 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Muller';
+    src: local('Muller Extra Bold'), local('Muller-Extra-Bold'),
+    url('../font/MullerExtraBold.woff2') format('woff2'),
+    url('../font/MullerExtraBold.woff') format('woff'),
+    url('../font/MullerExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Muller';
+    src: local('Muller Bold'), local('Muller-Bold'),
+    url('../font/MullerBold.woff2') format('woff2'),
+    url('../font/MullerBold.woff') format('woff'),
+    url('../font/MullerBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Muller';
+    src: local('Muller Medium'), local('Muller-Medium'),
+    url('../font/MullerMedium.woff2') format('woff2'),
+    url('../font/MullerMedium.woff') format('woff'),
+    url('../font/MullerMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Muller';
+    src: local('Muller Regular'), local('Muller-Regular'),
+    url('../font/MullerRegular.woff2') format('woff2'),
+    url('../font/MullerRegular.woff') format('woff'),
+    url('../font/MullerRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Muller';
+    src: local('Muller Light'), local('Muller-Light'),
+    url('../font/MullerLight.woff2') format('woff2'),
+    url('../font/MullerLight.woff') format('woff'),
+    url('../font/MullerLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

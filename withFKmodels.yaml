@@ -1,0 +1,22 @@
+models:
+  AccomodationTypeAndPricing:
+    accomodationType_id: id foreign:AccomodationType.id
+    description: longtext
+    price: json
+  Infrastructure:
+    title: string:100
+    image: json
+    option_id: id foreign:Option.id
+  AccomodationConditionAndPricing:
+    description: longtext
+    includedInAccomodationPricing_id: id foreign:IncludedInAccomodationPricing.id
+    image: json
+    accomodationTypeAndPricing_id: id foreign:AccomodationTypeAndPricing.id
+controllers:
+  AccomodationTypeAndPricing:
+    resource: web
+  Infrastructure:
+    resource: web
+  AccomodationConditionAndPricing:
+    resource: web
+seeders: AccomodationTypeAndPricing, Infrastructure, AccomodationConditionAndPricing

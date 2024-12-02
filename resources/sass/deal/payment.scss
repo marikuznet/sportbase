@@ -1,0 +1,330 @@
+.block-estimate .ago,
+.notifications .ago {
+    font-size: calc(1rem);
+    color: #8598AB;
+}
+
+.deal-block .title__deal-block .caption,
+section .details__estimate .title-estimate p,
+.detail-estimate-name .name {
+    color: #0B3158;
+    font-size: calc(1.25rem);
+    font-weight: bold;
+}
+
+section .details__estimate {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #BAC4DF;
+}
+
+section .details__estimate .title-estimate {
+    background-color: #F2F5FF;
+    border-radius: 10px 10px 0 0;
+}
+
+section .details__estimate .title-estimate button {
+    font-size: calc(1rem);
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.block-estimate .arrow-button {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+}
+
+.block-estimate .detail-estimate-name {
+    border-radius: 10px;
+}
+
+.block-estimate .detail-estimate-name .city {
+    color: #6283E5;
+    font-size: calc(1.125rem);
+}
+
+.block-estimate .detail-estimate-name .price {
+    border: 1px solid #1A9536;
+    border-radius: 10px;
+}
+
+.block-estimate .detail-estimate-name .price p,
+.block-estimate .description-estimate .buta p,
+.block-estimate .description-estimate .days {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.deal-customer .details p,
+.description-estimate .sub_caption {
+    font-size: calc(1.125rem);
+    color: #59728B;
+}
+
+.description-estimate .caption {
+    font-size: calc(1.125rem);
+    font-weight: bold;
+    color: #0B3158;
+}
+
+.description-estimate .buta.price {
+    border-color: #6283E5;
+}
+
+.description-estimate .buta.date {
+    border-color: #1A9536;
+}
+
+.description-estimate .price_rub,
+.notifications .congratulate p {
+    font-size: calc(1.25rem);
+    color: #0B3158;
+}
+
+.description-estimate .notification {
+    border-radius: 10px;
+    border: 1px solid #BAC4DF;
+}
+
+.description-estimate .notification p {
+    color: #32325D;
+    font-size: calc(1.125rem);
+}
+
+.time_to_end-estimate {
+    border-top: 1px solid #BAC4DF;
+    border-radius: 0 0 10px 10px;
+    background-color: #F9F9F9;
+}
+
+.time_to_end-estimate .text p,
+.time_to_end-estimate .end-time p {
+    font-size: calc(1.125rem);
+    color: #59728B;
+}
+
+.time_to_end-estimate .end-time {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.time_to_end-estimate .end-time .time {
+    background-color: #C4C7D6;
+    border-radius: 5px;
+    width: 190px;
+    color: white;
+    font-size: calc(1.375rem);
+}
+
+.block-estimate .details .estimate button,
+.block-estimate .details .cancel button {
+    width: 180px;
+    height: 50px;
+    background-color: #6FB77F;
+    border-radius: 5px;
+    color: white;
+}
+
+.block-estimate .details .cancel button {
+    background-color: transparent !important;
+    border: 1px solid #E45868 !important;
+    color: #E45868 !important;
+}
+
+.block-estimate .details p,
+.description-estimate .sub_caption {
+    font-size: calc(1.125rem);
+    color: #59728B;
+}
+
+.block-estimate .details .estimate,
+.block-estimate .details .cancel {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.block-estimate .details .estimate button,
+.block-estimate .details .cancel button {
+    width: 180px;
+    height: 50px;
+    background-color: #6FB77F;
+    border-radius: 5px;
+    color: white;
+}
+
+.caption-stage {
+    color: #0B3158;
+    font-size: calc(2.19rem);
+    font-weight: bold;
+}
+main .notif {
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #BAC4DF;
+}
+main .notif p {
+    font-size: calc(1.25rem);
+    color: #0B3158;
+}
+.btn_arbitration button {
+    background-color: transparent !important;
+    border: 1px solid #E45868 !important;
+    color: #E45868 !important;
+}
+
+
+@media (max-width: 960px) {
+    .block-estimate .executor {
+        order: -1;
+    }
+
+    .block-estimate .executor p {
+        font-size: calc(0.94rem) !important;
+    }
+
+    .block-estimate .executor {
+        width: 100% !important;
+    }
+
+    .block-estimate .executor .logo img {
+        width: 30px;
+    }
+
+    .block-estimate .executor .logo p {
+        color: #0B3158;
+        font-size: calc(0.875rem);
+        font-weight: bold;
+    }
+    .block-estimate {
+        margin-left: 1.5rem !important;
+        margin-right: 1.5rem !important;
+        width: auto !important;
+    }
+    .block-estimate .ago,
+    .notifications .ago {
+        font-size: calc(0.875rem) !important;
+    }
+    .flex-estimate {
+        flex-wrap: wrap;
+    }
+    .details__estimate {
+        width: 100% !important;
+    }
+    .details__estimate .title-estimate {
+        flex-wrap: wrap;
+    }
+    section .details__estimate .title-estimate {
+        font-size: calc(0.875rem) !important;
+    }
+    section .details__estimate .title-estimate button {
+        width: 50% !important;
+    }
+    section .details__estimate .title-estimate button {
+        font-size: calc(0.875rem) !important;
+    }
+    section .details__estimate .title-estimate .edit_estimate {
+        width: 190px !important;
+        font-size: calc(0.81rem) !important;
+    }
+    .details__estimate {
+        margin-right: 0 !important;
+    }
+    .deal-block .title__deal-block .caption,
+    .description-estimate .caption {
+        font-size: calc(0.875rem);
+    }
+    .description-estimate .sub_caption {
+        color: #0B3158;
+        font-size: calc(0.875rem);
+    }
+    .buta p, .description-estimate .food {
+        font-size: calc(0.81rem) !important;
+        font-weight: normal;
+        margin-bottom: 0 !important;
+    }
+    .description-estimate .placement {
+        width: 100% !important;
+    }
+    .description-estimate .notification p {
+        font-size: calc(0.81rem);
+    }
+    .description-estimate .notification img {
+        width: 17px;
+    }
+    .price .price_rub p {
+        background-color: #6283E5;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    .time_to_end-estimate {
+        flex-wrap: wrap;
+    }
+    .time_to_end-estimate .text {
+        width: 100% !important;
+    }
+    .time_to_end-estimate .end-time {
+        width: 100% !important;
+    }
+    .time_to_end-estimate .text p {
+        font-size: calc(0.81rem);
+        color: #32325D;
+    }
+    .time_to_end-estimate .end-time p {
+        font-size: calc(0.81rem);
+    }
+    .time_to_end-estimate .end-time .time {
+        font-size: calc(0.94rem);
+    }
+    .time_to_end-estimate .end-time {
+        margin-left: 1.5rem;
+        margin-top: 1.5rem !important;
+    }
+    .time_to_end-estimate .details {
+        flex-wrap: wrap;
+    }
+    .time_to_end-estimate .details .estimate,
+    .time_to_end-estimate .details .cancel {
+        margin-right: 0 !important;
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+    .time_to_end-estimate .details .estimate p,
+    .time_to_end-estimate .details .cancel p {
+        margin-bottom: 1rem !important;
+    }
+    .time_to_end-estimate .details .estimate {
+        margin-bottom: 1rem !important;
+    }
+    .time_to_end-estimate .details p {
+        font-size: calc(0.94rem) !important;
+    }
+    .title-estimate .btn-services {
+        flex-wrap: wrap;
+    }
+    .edit_estimate {
+        width: 190px;
+    }
+    .title-estimate .end {
+        width: auto !important;
+    }
+    .breadcrumb li{
+        font-size: calc(0.875rem) !important;
+    }
+    .notifications .notif {
+        border: 1px solid #BAC4DF !important;
+    }
+}
+
+
+.btn-base {
+    font-size: calc(1.125rem) !important;
+}
+
+@media (max-width: 960px) {
+    .btn-base {
+        font-size: calc(1rem) !important;
+    }
+}

@@ -1,0 +1,14 @@
+@media (max-width: 440px) {
+    .head-block__subtitle {
+        font-size: calc(0.88rem) !important;
+    }
+    section.objects-content .filters .available-objects-block {
+        height: 55px !important;
+    }
+    .search-wrapper input.input-search {
+        height: 50px;
+    }
+    .object-block__cost span {
+        font-size: calc(1.06rem) !important;
+    }
+}

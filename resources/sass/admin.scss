@@ -1,0 +1,34 @@
+// CoreUI
+@import '~@coreui/coreui/scss/coreui';
+@import '~@coreui/icons/css/all.min.css';
+
+@import 'admin/main.scss';
+@import 'admin/object.scss';
+@import 'admin/finantial.scss';
+@import 'admin/news';
+@import 'admin/users';
+@import 'stages';
+@import 'modal';
+
+.sb-admin-create-object {
+    .block__services label span {
+        border: none !important;
+    }
+
+    label.caption {
+        font-size: 14px;
+    }
+
+    .ul__list_objects .el__title {
+        font-size: 16px;
+    }
+
+    ul.list-overflow p {
+        font-size: 14px;
+    }
+
+    .caption__title {
+        font-size: 18px;
+    }
+}
+

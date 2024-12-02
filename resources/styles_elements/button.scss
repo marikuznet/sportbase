@@ -1,0 +1,228 @@
+@import '../sass/_variables.scss';
+
+.btn-blue {
+    border: 1px solid #6283E5 !important;
+    color: #6283E5 !important;
+}
+
+.cancelResponses {
+    border-radius: 10px !important;
+}
+
+.button {
+    font-family: 'Muller', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    background-color: $red;
+    padding: 13px 33px;
+    transition: .3s;
+    text-align: center;
+
+    &-register {
+        width: 350px;
+        height: 60px;
+    }
+
+    &-dark {
+        background-color: $dark;
+        box-shadow: 0 3px 6px #0A2F6529;
+        border-radius: 10px;
+        width: 220px;
+        height: 50px;
+        margin: auto;
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    &:hover {
+        background-color: $dark-red;
+        box-shadow: 0 3px 9px #68101A2E;
+    }
+
+    &:active {
+        background-color: $red;
+        box-shadow: 0 3px 9px #68101A2E;
+    }
+}
+
+.sb-button-red {
+    background: $red !important;
+
+    span {
+        color: white !important;
+    }
+}
+
+.sb-button-blue {
+    display: flex;
+    align-items: center;
+    font-family: 'Muller', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: $main-blue;
+    background-color: transparent;
+    //background-color: $main-blue;
+    padding: 13px 33px;
+    transition: .3s;
+    text-align: center;
+    height: 45px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #BED0E2;
+
+    &:hover {
+        background-color: $dark-main-blue;
+        box-shadow: 0 3px 9px $dark-main-blue;
+
+        p, span {
+            color: $textWhite;
+
+            &.countActive {
+                color: $text-dark-blue;
+            }
+        }
+    }
+
+    &:active {
+        background-color: $main-blue;
+        box-shadow: 0 3px 9px $dark-main-blue;
+
+        p, span {
+            color: $textWhite;
+        }
+    }
+
+    p, span {
+        font-size: 17px !important;
+        color: #6283e5 !important;
+
+        &.countActive {
+            font-weight: bold;
+        }
+    }
+
+    &.active {
+        background: $main-blue;
+
+        & p, span {
+            color: $textWhite !important;
+
+            &.countActive {
+                color: $text-dark-blue !important;
+            }
+        }
+    }
+}
+
+.button-disable {
+    background-color: lightgrey !important;
+    color: white;
+    box-shadow: 0 3px 6px #0A2F6529;
+    border-radius: 10px;
+    width: 220px;
+    height: 50px;
+    margin: auto;
+    /* &:hover {
+         background-color: #6fb77f !important;
+         box-shadow: 0 3px 9px $bg-dark-green;
+     }*/
+
+    &:active {
+        background-color: $bg-green !important;
+        box-shadow: 0 3px 9px #68101A2E;
+    }
+}
+
+.middle__button {
+    position: relative;
+
+    &:after {
+        content: url(../icons/next.svg);
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.2);
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.button-borderBlue.button {
+    background: #FFFFFF;
+    border: 1px solid #6283e5;
+    color: #6283e5;
+}
+
+.button-borderBlue.button:hover,
+.button-borderBlue.button:active,
+.button-borderBlue.button.active {
+    background-color: #6283e5;
+    color: #FFFFFF;
+}
+
+.button-borderBlue.button:hover p,
+.button-borderBlue.button:active p,
+.button-borderBlue.button.active p {
+    color: #FFFFFF !important;
+}
+
+.button-borderWhite.button {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.button-borderWhite.button:hover,
+.button-borderWhite.button:active,
+.button-borderWhite.button.active {
+    background-color: #6283e5;
+    color: #FFFFFF;
+}
+
+.button-borderWhite.button:hover p,
+.button-borderWhite.button:active p,
+.button-borderWhite.button.active p {
+    color: #6283e5 !important;
+}
+
+@media(max-width: 768px) {
+    .button {
+        &-register {
+            width: 280px;
+            height: 50px;
+        }
+    }
+    .middle__button {
+        &:after {
+            font-size: 16px !important;
+            width: 40px !important;
+            height: 40px !important;
+            padding: 10px !important;
+
+        }
+    }
+}
+
+@media(max-width: 960px) {
+    .sb-button-blue {
+        p {
+            font-size: 15px !important;
+
+            &.countActive {
+                font-weight: bold;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .bottom-logIn {
+        width: 450px;
+    }
+}

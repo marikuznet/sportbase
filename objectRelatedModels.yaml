@@ -1,0 +1,13 @@
+models:
+  SportTypeAndObject:
+    sportObject_id: id foreign:SportObject.id
+    sportType_id: id foreign:SportType.id
+  ServiceAndObject:
+    sportObject_id: id foreign:SportObject.id
+    service_id: id foreign:Service.id
+controllers:
+  SportTypeAndObject:
+    resource: web
+  ServiceAndObject:
+    resource: web
+seeders: SportTypeAndObject, ServiceAndObject

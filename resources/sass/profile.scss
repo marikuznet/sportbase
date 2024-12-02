@@ -1,0 +1,538 @@
+.main-profile, .main-notification,
+.main-security, .main-payment,
+.proposal-card {
+    background-color: #fafafa;
+}
+
+.block-photo__company .img__circle {
+    left: 25%;
+}
+
+.block-photo__company .img__upload {
+    top: 22%;
+    left: 46%;
+}
+
+.block-photo__company .logo__circle {
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img__icon-settings {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+li.is-active {
+    border-right: 2px solid lightblue;
+}
+
+.block__profile-settings, .block-payment {
+    background-color: white;
+}
+
+.title__block-profile {
+    border-bottom: 1px solid lightgray;
+}
+
+.block__about-company, .block__profile-settings, .block-payment, .block-notification, .block-security {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.block__upload {
+    display: flex;
+}
+
+.block__upload .caption__logo {
+    font-size: calc(1.06rem);
+    color: #2D297D;
+    opacity: .6;
+}
+
+.img__icon_company {
+    /* width: 50px;*/
+}
+
+.title__company {
+    color: #2d297d;
+}
+
+.block__ul-settings li {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+.block__ul-settings a {
+    color: #2d297d !important;
+    padding-left: 30px !important;
+}
+
+li[class=is-active] {
+    border-right: 1px solid blue;
+}
+
+.block__about-company .navbar-nav
+.is-active:before {
+    content: "\2191";
+    position: absolute;
+    right: 10px;
+    color: #000;
+    top: 0;
+}
+
+.block__profile-main_info, .block__address-main_info,
+.block__social-main_info {
+    border-bottom: 1px solid lightgrey;
+}
+
+.block__address-main_info .additionally {
+    font-weight: normal;
+    font-size: calc(1.125rem);
+    color: #0B3158;
+}
+
+.addAddressButton .button-blue,
+.addAddressButton .button-border {
+    border-radius: 10px;
+    font-weight: normal;
+}
+
+.button-green {
+    background-color: #6FB77F !important;
+    width: 200px;
+}
+
+.block__social-main_info label {
+    width: 100%;
+}
+
+.block__profile-settings .caption__profile {
+    color: #0B3158;
+}
+
+.about__company .name-wrapper .caption,
+.col-employees-wrapper .caption,
+.about__company .caption,
+.infoAboutAddress .caption,
+.personal-data .caption,
+.social-data .caption {
+    color: #32325D !important;
+    font-size: calc(1.19rem);
+    font-weight: bold;
+}
+
+h5[class="caption"] {
+    color: #6283E5;
+    font-size: calc(1.375rem);
+    font-weight: bold;
+}
+
+input.input-profile-info {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #bac4df;
+    padding: 14px 16px;
+    padding-right: 16px;
+    padding-right: 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 100%;
+    //height: 55px;
+    height: 50px !important;
+    font-size: calc(1.125rem) !important;
+    color: #32325D;
+}
+
+.block__about-company ul a {
+    font-size: calc(1.125rem);
+}
+
+.block__upload .block__rectangle .img__upload {
+    display: block;
+    top: 41%;
+    left: 12%;
+}
+
+.col-employees-wrapper .selectpicker {
+    font-weight: normal;
+}
+
+li.v-dropdown-item {
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+.block-photo__company .block__circle {
+    border-radius: 50%;
+    border: 1px solid #BAC4DF;
+    height: 100%;
+}
+
+.block__upload .block__upload-image {
+    /* width: 210px;
+     height: 110px;*/
+}
+
+.block__upload .block__upload-image .block__rectangle {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    height: 110px;
+    width: 110px
+}
+
+.error-valid {
+    color: #F37A8A;
+    float: right;
+    font-size: calc(0.875rem);
+    font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .button-center {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .button-center {
+        margin-left: 1.5rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-profile .container,
+    .main-notification .container,
+    .main-security .container,
+    .main-payment .container {
+        padding-bottom: 1.5rem !important;
+        padding-top: 1.5rem !important;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .profile__user {
+        background-color: #6D75C5;
+    }
+    .main-profile {
+        padding: 0 !important;
+    }
+    .main-profile .container,
+    .main-security .container {
+        padding: 0 !important;
+    }
+    .profile_user_background {
+        background-color: #6D75C5;
+        width: 100%;
+    }
+    .block__profile-settings {
+        /* padding-left: 1.5rem !important;
+         padding-right: 1.5rem !important;*/
+    }
+    .about__company .name-wrapper .caption,
+    .col-employees-wrapper .caption,
+    .about__company .caption,
+    .infoAboutAddress .caption,
+    .personal-data .caption,
+    .social-data .caption,
+    .details_payment .caption,
+    .sendNotification .subtitle,
+    .reset__password label {
+        font-weight: normal !important;
+        font-size: calc(1rem) !important;
+    }
+    .profileAction li {
+        margin-left: 2rem !important;
+    }
+
+    h5[class="caption"], .sendNotification .caption {
+        font-size: calc(1.125rem) !important;
+    }
+    .block__address-main_info .additionally,
+    .block__address-main .additionally {
+        font-size: calc(0.87rem) !important;
+        color: #0B3158 !important;
+        font-weight: lighter !important;
+    }
+    .block__upload .caption__logo {
+        font-size: calc(0.88rem);
+    }
+    .block__upload .img__rectangle {
+        width: 78px;
+    }
+    .addAddressButton button {
+        font-size: calc(0.94rem);
+    }
+    li.v-dropdown-item {
+        font-size: 14px;
+    }
+    .block__profile-settings {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+}
+
+
+body {
+    background-color: #F8F8F8;
+}
+
+.white1 {
+    background-color: #fff;
+}
+
+.white1-1 {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.white1-2 {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.white1-3 {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.white2 {
+    margin-top: 1%;
+    background-color: #fff;
+    /*   border: 1px solid #BAC4DF;
+       border-radius: 10px 10px 0px 0px;*/
+    border-bottom: none;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.white4 {
+    margin-top: 1%;
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: none;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+
+.white3 {
+    background-color: #F8F8F8;
+    border: 1px solid #BAC4DF;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+/*Раздел где две колоник*/
+
+.white3-1 {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.white3-2 {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-top: none;
+    border-bottom: none;
+}
+
+/*Отступ контейнера*/
+
+.ins {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 5px 0 5px -5px #CCC, 0 5px 5px -5px #CCC, -5px 0 5px -5px #CCC;
+}
+
+
+.text-l {
+    font-size: 1rem;
+    color: #0B3158;
+}
+
+
+/*Заголовок Исполнитель и ПромТорг*/
+
+.ispr {
+    font-size: 20px;
+}
+
+.buta {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    margin: 1%;
+    color: black;
+}
+
+.butw {
+    background-color: #fff;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    margin: 1%;
+    color: black;
+}
+
+.butb {
+    border: 1px solid #6283E5;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.butn {
+    color: #fff;
+    background-color: #6283E5;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.butg {
+    height: 40px;
+    border: 1px solid #1A9536;
+    border-radius: 10px;
+    margin: 1%;
+    display: flex;
+    align-items: center !important;
+}
+
+.buto {
+    color: #fff;
+    background-color: #F3A54C;
+    border: 1px solid #F3A54C;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.butr {
+    color: #E45868;
+    border: 1px solid #E45868;
+    border-radius: 10px;
+    margin: 1%;
+    font-size: 13px;
+}
+
+.butt {
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.textl {
+    font-size: calc(1.25rem) !important;
+    color: #848484 !important;
+}
+
+p {
+    margin: 0;
+}
+
+/*.proposal-card p {
+    color: black;
+    font-size: 14px;
+}*/
+
+.sb-profile-and-settings {
+    label {
+        font-size: 19px;
+        font-weight: bold;
+        color: #32325D;
+    }
+}
+
+.main-payment {
+   // margin: 30px 0;
+
+    & .block-payment {
+        & label {
+            font-size: 19px;
+            font-weight: bold;
+            color: #32325D;
+        }
+
+        & .title__block {
+            padding: 1.625rem 3rem;
+        }
+    }
+
+    & .addAddressButton {
+        button {
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .sb-profile-and-settings {
+        label {
+            font-size: 16px !important;
+            font-weight: normal !important;
+            color: $main-dark-blue-text;
+        }
+
+        & .addAddressButton {
+            button {
+                height: 42px;
+            }
+        }
+
+        label.select-wrapper {
+            margin-bottom: 20px;
+        }
+    }
+
+    .main-payment {
+        margin: 0;
+        label {
+            font-size: 16px !important;
+            font-weight: normal !important;
+        }
+
+        & .details_payment {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        & .addAddressButton {
+            button {
+                height: 42px;
+            }
+        }
+
+        label.select-wrapper {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

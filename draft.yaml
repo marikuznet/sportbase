@@ -1,0 +1,17 @@
+models:
+  Country:
+    title: string:100
+  Region:
+    title: string:100
+    country_id: id foreign:country.id
+  City:
+    title: string:100
+    region_id: id foreign:region.id
+controllers:
+  Country:
+    resource: web
+  Region:
+    resource: web
+  City:
+    resource: web
+seeders: Country, Region, City

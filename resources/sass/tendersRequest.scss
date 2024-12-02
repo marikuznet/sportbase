@@ -1,0 +1,95 @@
+main.tendersRequest {
+    .request-object {
+        border-radius: 10px !important;
+
+        &__body {
+            & .my-tender-request {
+                padding: 1rem !important;
+            }
+
+            .title-info {
+                padding-left: 2.5rem !important;
+                padding-right: 2.5rem !important;
+                //height: 65px;
+            }
+
+            & .container-response-body {
+                & .executor-body {
+                    border: none;
+                }
+            }
+        }
+
+        &__responses {
+            padding: 1rem !important;
+
+            & .request-object {
+                padding: 1rem 2.5rem !important;
+                border: none !important;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 960px) {
+    main.tendersRequest {
+        .request-object {
+            &__title {
+                padding: 1.25rem !important;
+
+                .titleObject__main {
+                    font-size: 17px !important;
+                }
+
+                & .border-green {
+                    min-height: 36px;
+                    padding-bottom: 0.6rem;
+                    padding-top: 0.2rem;
+                    text-align: center;
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+
+                & .arrow-button {
+                    height: 36px;
+                    width: 36px;
+                    min-width: 36px;
+                    min-height: 36px;
+                }
+            }
+
+            & .tender__title {
+                font-size: 17px !important;
+            }
+
+            .create .caption {
+                font-size: 14px !important;
+                font-weight: normal !important;
+            }
+
+            .my-tender-request .title-info {
+                padding-left: 1.125rem !important;
+                padding-right: 1.125rem !important;
+                align-items: center;
+
+                button {
+                    width: 100% !important;
+                }
+            }
+
+            .modal-info-object-request {
+                .container-response-body {
+                    padding-right: 1.125rem !important;
+                    padding-left: 1.125rem !important;
+
+                    .white3-2 {
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

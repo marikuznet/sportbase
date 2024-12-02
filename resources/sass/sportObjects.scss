@@ -1,0 +1,328 @@
+.main-sport-objects {
+    background-color: #fafafa;
+
+    & .object-block__fast-forward-label {
+        left: -28px;
+    }
+}
+
+.searchLine .caption {
+    font-size: calc(1.75rem);
+    font-weight: bold;
+    color: #0B3158;
+}
+
+.searchLine .searchButton,
+.searchLine .searchField {
+    height: 45px;
+}
+
+.searchLine .searchButton {
+    font-size: calc(1rem);
+    width: 238px;
+}
+
+.searchLine .blueText {
+    font-size: calc(1.75rem);
+    font-weight: bold;
+    color: #6283E5;
+}
+
+.sport-object .img_sport-object {
+    height: 100%;
+}
+
+.sport-object .img_sport-object .sb-image-content {
+    border-radius: 10px 0 0 10px;
+    height: 100%;
+}
+
+.sport-object {
+    background-color: white;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+}
+
+.row.sport-object {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sport-object .block-text p.captionHidden {
+    color: rgba(11, 49, 88, 0.5);
+    font-size: calc(1.375rem);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sport-object .block-text p.captionVisible {
+    color: rgba(11, 49, 88);
+    font-size: calc(1.375rem);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sport-object .block-text .block_title .id {
+    color: rgba(11, 49, 88, 0.5);
+    font-size: calc(1.125rem);
+    text-transform: lowercase;
+    font-weight: normal;
+}
+
+.sport-object .btnAction {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.sport-object .block-text,
+.sport-object .description_sport-object {
+    border-bottom: 1px solid #D9E4EE;
+}
+
+.description_sport-object .object-block__location {
+    font-size: calc(1.125rem);
+    color: #6283E5;
+}
+
+.text-color_blue {
+    color: #0B3158;
+}
+
+.description_sport-object .object-rating img,
+.object-message img {
+    padding-right: 0.5rem;
+}
+
+.description_sport-object .text__descr {
+    color: #0B3158;
+    font-size: calc(1.125rem);
+}
+
+.price_sport-object {
+    & .price-caption {
+        color: #32325D;
+        font-size: calc(1.125rem);
+        font-weight: bold;
+    }
+
+    & .price-for-per {
+        & .price {
+            color: #6283E5;
+            font-size: calc(1.75rem);
+            font-weight: bold;
+        }
+
+        & .valute {
+            color: #0B3158;
+            font-size: calc(1.375rem);
+            font-weight: lighter;
+        }
+
+        & .price_text {
+            color: #0B3158;
+            font-size: calc(1.125rem);
+            font-weight: lighter;
+        }
+    }
+}
+
+.price_sport-object {
+    & .btn-on_advertising {
+        width: 278px;
+        background-color: #56C46F;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    & .btn-on_advertising_border {
+        width: 183px;
+        background-color: white;
+        height: 60px;
+        border: 1px solid #56C46F;
+        border-radius: 10px;
+    }
+}
+
+.sport-object .buttons {
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.sb-advertisement .highlighting {
+    outline: 10px solid #E45868;
+}
+
+.sport-list {
+    .sport-list__item {
+        flex: 1 1 auto !important;
+        margin-right: 5px !important;
+
+        label.label-checkbox-wrapp__label {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+}
+
+.sb-advertisement-reminders__days {
+    border: 1px solid #56C46F;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.classPromotion {
+    border: 5px solid rgb(228, 88, 104);
+    border-radius: 10px 0 0 10px;
+}
+
+@media (max-width: 1199px) {
+    .main-sport-objects {
+        padding: 1rem 2rem;
+    }
+
+    .main-sport-objects .searchLine .caption {
+        padding-bottom: 2rem;
+        font-size: 22px;
+    }
+
+    .main-sport-objects .caption span {
+        font-size: 22px;
+    }
+
+    .main-sport-objects .img_sport-object {
+        height: 145px !important;
+    }
+
+    .sport-object .img_sport-object img {
+        border-radius: 10px 10px 0 0 !important;
+    }
+
+    .sport-object {
+        border-radius: 10px;
+    }
+    .block_descr .text__descr {
+        color: #7088A1;
+        font-size: 1rem;
+    }
+    .price_sport-object .price_text {
+        border-radius: 10px;
+        border: 1px solid #6283e5;
+        padding: 0.5rem;
+        height: 45px !important;
+    }
+    .price_sport-object .price-for-per {
+        padding-bottom: 1rem;
+    }
+
+    .btnAdvertising .btn-on_advertising {
+        width: 100%;
+        height: 45px !important;
+        margin-bottom: 1rem;
+    }
+    .main-sport-objects .pages {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-sport-objects .description_sport-object .block_descr {
+        max-height: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 20px !important;
+    }
+    .btnAdvertising .btn-on_advertising {
+        justify-content: space-between !important;
+    }
+    .block-advertis .block-img {
+        flex: 1 1 !important;
+    }
+    .block-advertis .block-img img {
+        width: 100% !important;
+    }
+    .block-advertis .sb-info-advertisement {
+
+    }
+    .label-checkbox-wrapp, .label-radio-wrapp {
+        flex: 1 1 auto !important;
+        margin-right: 5px !important;
+
+        label.label-checkbox-wrapp__label, label.label-radio-wrapp__label {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .sport-object .block-text, .sport-object .description_sport-object {
+        border-bottom: none;
+    }
+    .price_sport-object .price-for-per .price {
+        font-size: calc(1.18rem);
+    }
+    .sport-object .block-text p.captionHidden {
+        font-weight: normal;
+    }
+    .price_sport-object .price-for-per .valute {
+        font-size: 1.06rem;
+        font-weight: lighter;
+    }
+    .btnAdvertising .btn-on_advertising {
+        padding: 0;
+    }
+    .price_sport-object .price_text {
+        height: auto !important;
+    }
+    .block-advertis {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 440px) {
+    .block-advertis .block-img {
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .mobileMenu {
+        & .dropdown-menu {
+            & .dropdown-item {
+                height: 75px;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    .owl-item.active {
+        background: transparent !important;
+    }
+
+    .main-sport-objects {
+        & .sb-search-add-object {
+            flex-direction: column !important;
+
+            & .searchButton {
+                width: 100% !important;
+                order: 0;
+            }
+
+            & .search-wrapper {
+                order: 1;
+            }
+        }
+        & .price_sport-object {
+            & .price-caption {
+
+            }
+        }
+    }
+}

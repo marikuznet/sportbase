@@ -1,0 +1,40 @@
+created:
+    - app/Http/Controllers/SportTypeAndObjectController.php
+    - app/Http/Controllers/ServiceAndObjectController.php
+    - database/factories/SportTypeAndObjectFactory.php
+    - database/factories/ServiceAndObjectFactory.php
+    - database/migrations/2021_05_16_111927_create_sport_type_and_objects_table.php
+    - database/migrations/2021_05_16_111928_create_service_and_objects_table.php
+    - app/Models/SportTypeAndObject.php
+    - app/Models/ServiceAndObject.php
+    - database/seeders/SportTypeAndObjectSeeder.php
+    - database/seeders/ServiceAndObjectSeeder.php
+    - tests/Feature/Http/Controllers/SportTypeAndObjectControllerTest.php
+    - tests/Feature/Http/Controllers/ServiceAndObjectControllerTest.php
+    - resources/views/sportTypeAndObject/index.blade.php
+    - resources/views/sportTypeAndObject/create.blade.php
+    - resources/views/sportTypeAndObject/show.blade.php
+    - resources/views/sportTypeAndObject/edit.blade.php
+    - resources/views/serviceAndObject/index.blade.php
+    - resources/views/serviceAndObject/create.blade.php
+    - resources/views/serviceAndObject/show.blade.php
+    - resources/views/serviceAndObject/edit.blade.php
+updated:
+    - routes/web.php
+models:
+    Country: { title: 'string:100' }
+    Region: { title: 'string:100', country_id: 'id foreign:country.id' }
+    City: { title: 'string:100', region_id: 'id foreign:region.id' }
+    AccomodationType: { title: 'string:100' }
+    Option: { title: 'string:100' }
+    IncludedInAccomodationPricing: { title: 'string:100' }
+    Service: { title: 'string:100' }
+    SportType: { title: 'string:100' }
+    ObjectType: { title: 'string:100' }
+    Feedback: { date: timestamp, content: longtext, rating: float }
+    AccomodationTypeAndPricing: { accomodationType_id: 'id foreign:AccomodationType.id', description: longtext, price: json }
+    Infrastructure: { title: 'string:100', image: json, option_id: 'id foreign:Option.id' }
+    AccomodationConditionAndPricing: { description: longtext, includedInAccomodationPricing_id: 'id foreign:IncludedInAccomodationPricing.id', image: json, accomodationTypeAndPricing_id: 'id foreign:AccomodationTypeAndPricing.id' }
+    SportObject: { title: 'string:100', objectType_id: 'id foreign:ObjectType.id', image: json, description: longtext, sportType_id: 'id foreign:SportType.id', accomodationConditionAndPricing_id: 'id foreign:AccomodationConditionAndPricing.id', infrastructure_id: 'id foreign:Infrastructure.id', city_id: 'id foreign:City.id', address: 'string:100', postIndex: integer, longtitude: float, latitude: float, rating: float, feedback_id: json, user_id: integer, hasPromotion: boolean, hasHighlightion: boolean, hasVIP: boolean, relationships: { hasMany: 'Feedback, SportType' } }
+    SportTypeAndObject: { sportObject_id: 'id foreign:SportObject.id', sportType_id: 'id foreign:SportType.id' }
+    ServiceAndObject: { sportObject_id: 'id foreign:SportObject.id', service_id: 'id foreign:Service.id' }

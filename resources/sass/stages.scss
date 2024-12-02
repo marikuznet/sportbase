@@ -1,0 +1,781 @@
+.main-stage {
+    background-color: #fafafa;
+    min-height: 600px;
+}
+
+.main-stage .breadcrumb {
+    background-color: transparent;
+    border: none
+}
+
+.title__stage {
+    color: #0B3158;
+}
+
+.caption-stage__hr {
+    color: #e4586f;
+    height: 4px !important;
+    width: 54px !important;
+    opacity: inherit !important;
+}
+
+.addObject-stage__one .subtitle__blue {
+    font-size: calc(1.19rem);
+    color: #0B3158;
+}
+
+.addObject-stage__one .subtitle__muted {
+    font-size: calc(1.19rem);
+    color: #0B3158;
+    opacity: 0.5;
+}
+
+.create-object-stepper .subtitle__blue {
+    font-size: calc(1.19rem);
+    color: #0B3158;
+}
+
+.create-object-stepper .subtitle__muted {
+    font-size: calc(1.19rem);
+    color: #0B3158;
+    opacity: 0.5;
+}
+
+img.image__stage {
+    height: 70px;
+}
+
+
+.main-content__stage {
+    background-color: #FFFFFF;
+    border: 1px solid #BAC4DF;
+    border-radius: 15px;
+}
+
+.main-content__stage .caption__title {
+    text-transform: uppercase;
+    font-size: calc(1.375rem);
+    font-weight: bold;
+    color: #32325D;
+}
+
+.main-content__stage .caption {
+    color: #32325D !important;
+    font-size: calc(1.19rem);
+    font-weight: bold;
+}
+
+.blockImage {
+    border-radius: 10px;
+    border: 1px solid #BAC4DF;
+    background-color: white;
+    height: 100px;
+    margin-right: 0.5rem !important;
+    overflow: auto;
+}
+
+.captionUploadPhoto .label {
+    color: #2D297D;
+    opacity: 0.6;
+    font-size: calc(1.06rem);
+}
+
+.checkService {
+    width: 30px;
+}
+
+.block__services p {
+    color: #0B3158 !important;
+    font-size: calc(1.125rem);
+    font-weight: lighter;
+    padding-top: 5px;
+    line-height: normal;
+}
+
+.block__services label span {
+    min-width: 30px;
+    min-height: 30px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+    display: inline-block;
+    position: relative;
+    background-color: #FFF;
+    border-radius: 7px;
+    padding: 2px;
+}
+
+.checkService[type=checkbox]:checked + span:before { /* <-- ставим иконку, когда чекбокс включен  */
+    content: url('/icons/settings/check-mark.svg');
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 23px;
+}
+
+.buttonOption button {
+    border-radius: 10px;
+    border: 1px solid #6283E5;
+    color: #6283E5;
+    font-size: calc(1.125rem);
+}
+
+.typeLive {
+    border: 1px solid gray;
+    //height: 285px;
+    border-radius: 10px;
+}
+
+.typeLive .block__title {
+    background-color: #F2F5FF;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.typeLive .block__title .btnFunc {
+    top: 6px;
+    right: 20px;
+    position: absolute;
+}
+
+.typeLive.border-grey {
+    border-color: #BAC4DF;
+}
+
+.btnFunc .btnAction {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.block__text .text {
+    font-size: calc(1rem);
+    color: #0B3158;
+}
+
+.block__text .priceForPer,
+.promotion .text__promotion,
+.descriptionObject .textDescription,
+.footer__promotion .duration__promotion {
+    font-size: calc(1.06rem);
+    color: #0B3158;
+}
+
+.block__price .btnInformation {
+    height: 40px;
+    border-radius: 10px;
+    border-color: #6283E5;
+    font-weight: normal;
+}
+
+.block__price .priceMin,
+.block__price .priceMax {
+    height: 40px;
+}
+
+.infrastruct .el__title {
+    font-size: calc(1.25rem);
+    color: #0B3158;
+}
+
+.infrastruct .list-overflow li p,
+.infrastruct .list-hidden li p {
+    color: #7088A1;
+}
+
+.serviceOn .list-overflow li p,
+.serviceOn .list-hidden li p,
+.serviceOn .el__list li p {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.serviceOn ul li {
+    list-style: disc;
+    color: #6283E5;
+    padding-bottom: 20px;
+}
+
+.infrastruct ul li {
+    list-style: disc;
+    color: #E45868;
+    padding-bottom: 20px;
+}
+
+.infrastruct .btnViewFull {
+    font-size: calc(1rem);
+    margin: 15px;
+    border-radius: 10px;
+    border-color: #6283E5;
+    width: 90%;
+}
+
+.infrastruct .el__img {
+    height: 145px;
+}
+
+.list-overflow {
+    height: 120px;
+    overflow: hidden;
+}
+
+.list-visible {
+    height: 100%;
+    overflow: visible;
+}
+
+.infrastruct .ul__list_objects {
+    min-height: 375px;
+}
+
+.block_rul {
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #6283E5;
+    padding: 10px 10px;
+    width: 80%;
+}
+
+.block_rul .text__rules {
+    font-size: calc(1.125rem);
+    color: #32325D;
+}
+
+.dottedLine {
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.dottedLine::after {
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-image: radial-gradient(#ebebeb 40%, transparent 50%);
+    background-size: 10px 10px;
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    display: block;
+}
+
+.dottedLine::before {
+    content: '';
+    height: 10px;
+    width: 100%;
+    background-image: radial-gradient(#ebebeb 40%, transparent 50%);
+    background-size: 10px 10px;
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    display: block;
+}
+
+.imageUploadLeft {
+    width: 100px;
+    margin-right: 1%;
+}
+
+.block__address-main_info {
+    border-top: 1px solid lightgray;
+}
+
+.descriptionObject .description__object {
+    border: 1px solid rgba(186, 196, 223, 0.2);
+    border-radius: 10px;
+}
+
+.descriptionObject .label__service {
+    border-color: #BAC4DF;
+    border-radius: 7px;
+    height: 45px;
+    font-size: calc(1.125rem);
+    font-weight: normal;
+    margin-right: 0.5rem !important;
+}
+
+.aboutObject,
+.promotion .content__promotion,
+.promotion .footer__promotion {
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.serviceOn {
+    background-color: rgba(98, 131, 229, 5%);
+    border-radius: 10px;
+}
+
+.serviceOn .el__list,
+.list-overflow,
+.list-hidden {
+    color: #0B3158;
+    font-size: calc(1.19rem);
+}
+
+.ymaps-2-1-78-inner-panes, .ymaps-2-1-78-map {
+    border-radius: 20px;
+}
+
+.blockMark {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.blockMark .congratulations {
+    color: #0B3158;
+    font-size: calc(1.25rem);
+    font-weight: bold;
+}
+
+.blockMark .subtitle {
+    color: #0B3158;
+    font-size: calc(1.125rem);
+}
+
+.blockMark .btnBorder {
+    border-radius: 10px;
+    font-size: calc(1.125rem)
+}
+
+.blockAdvertisement .promotion {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #BAC4DF;
+}
+
+.blockAdvertisement .promotion .title__promotion,
+.footer__promotion .title__promotion {
+    font-size: calc(1.375rem);
+    font-weight: bold;
+    color: #0B3158;
+    max-width: 100px !important;
+}
+
+.promotion .object-block__cost {
+    color: #0B3158;
+    background-color: white;
+    border: 1px solid #6283E5;
+}
+
+.promotion .object-block__name {
+    color: #0B3158;
+    font-size: calc(1.25rem);
+    font-weight: normal;
+}
+
+.promotion .object-location__country {
+    color: #6283E5;
+    font-size: calc(1.06rem);
+    font-weight: normal;
+}
+
+.promotion .object-location__city {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.promotion .object-block__descr {
+    color: #7088A1;
+    font-size: calc(1rem);
+}
+
+.promotion .footer__promotion .label-radio-wrapp__label {
+    font-size: calc(1.06rem);
+    padding: 0.3em 1.2em;
+}
+
+.promotion .pay__promotion .price {
+    color: #6283E5;
+    font-size: calc(1.81rem);
+    font-weight: bold;
+}
+
+.promotion .pay__promotion .currency {
+    color: #0B3158;
+    font-size: calc(1.38rem);
+    font-weight: normal;
+}
+
+.promotion .pay__promotion .days {
+    color: #0B3158;
+    font-size: calc(1.125rem);
+}
+
+.promotion .calculation__promotion button {
+    width: 270px !important;
+}
+
+.content__promotion .highlighting {
+    outline: 10px solid #E45868;
+}
+
+.infrastruct .btnFunc {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.btnFunc a,
+.closePriceAllLive img {
+    cursor: pointer;
+}
+
+.img-responsive {
+    border-radius: 5px;
+}
+
+.image-preview {
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.image-preview .imgUpload {
+    width: 50px;
+    height: 50px;
+    background: url("/icons/stages/file-upload.svg") no-repeat;
+    background-position: center;
+}
+
+.image-preview:hover .imgUpload {
+    background-image: url("/icons/stages/file-upload-blue.svg");
+}
+
+.image-preview .remove-image {
+    width: 29px;
+    height: 27px;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.image-preview button {
+    position: absolute;
+    top: 45px;
+    background-color: white;
+    border-radius: 5px;
+    width: 30px;
+}
+
+.additionalyPriceLive {
+    color: #2D297D;
+    opacity: 0.6;
+    font-size: calc(1.125rem);
+    font-weight: normal;
+}
+
+.month .nameMonth {
+    font-size: calc(1.06rem);
+    color: #0B3158;
+    font-weight: lighter;
+    min-width: 80px;
+}
+
+.priceList .input__price-month,
+.closeOptions .input-price-info {
+    height: 40px;
+    font-size: calc(1.125rem) !important;
+}
+
+.month {
+    border-bottom: 1px solid #BAC4DF;
+    padding-bottom: 5px;
+}
+
+.priceList .month span {
+    color: #32325D;
+    font-weight: lighter;
+    font-size: calc(1.125rem);
+}
+
+.uploadImage .text-upload {
+    border: 1px solid rgba(98, 131, 229, 0.5);
+    border-radius: 10px;
+    width: 330px;
+    color: #0B3158;
+    font-size: calc(1.125rem);
+}
+
+.uploadImage .text .subtitle {
+    color: rgba(45, 41, 125, 0.6);
+    font-size: calc(1.06rem);
+}
+
+.image .closeImage {
+    left: 105px;
+    top: 180px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.infrastruct img {
+    /*margin-left: auto !important;*/
+}
+
+.blockMark .buttonSportObjects {
+    margin-left: auto !important;
+}
+
+.user-type__list .label-radio-wrapp,
+.highlighting-list .label-radio-wrapp,
+.vip-type__list .label-radio-wrapp {
+    width: 23%;
+}
+
+.label.textForCheckBox {
+    color: #000;
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+label.textForCheckBox:before {
+    content: " ";
+    color: #000;
+    display: inline-block;
+    font: 20px/30px Arial;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border: 1px solid #e3e3e3;
+    border-image: initial;
+    vertical-align: middle;
+}
+
+input:checked + label.textForCheckBox:before {
+    content: url('/icons/settings/check-mark.svg');
+}
+
+input:disabled + label.textForCheckBox:before {
+    background: #eee;
+    color: #aaa;
+}
+
+.calculation__promotion.wrapp-button {
+    width: 266px;
+    /*position: relative;*/
+    bottom: -20px;
+    /*left: -10px;*/
+    right: 20%;
+}
+
+.promotion .text__promotion {
+    max-height: 120px !important;
+    height: 120px !important;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.thirdStage {
+    & .footer__promotion {
+        .title__promotion {
+            max-width: 100% !important;
+            width: 100% !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .uploadImage .text-upload {
+        cursor: pointer;
+        font-size: 11px;
+        padding: 5px;
+    }
+    .uploadImage .text {
+        width: 100%;
+    }
+
+    .thirdStage {
+        & .sb-promotion-stage {
+            padding: 0 !important;
+        }
+
+        & .promotion {
+            &__title {
+                flex-wrap: wrap !important;
+            }
+
+            & .price__button {
+                width: auto !important;
+            }
+        }
+    }
+
+    .mapAddress {
+        height: 300px !important;
+    }
+
+    button.sb-prev-stage {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 769px) {
+    button.sb-prev-stage {
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-content__stage .caption__title {
+        text-transform: uppercase;
+        font-size: calc(0.94rem);
+    }
+
+    .main-content__stage .caption {
+        font-size: calc(1rem);
+        font-weight: bold;
+    }
+
+    .blockUploadImages .blockImage {
+        width: 78px;
+        height: 78px;
+        margin-bottom: 10px;
+    }
+
+    .blockUploadImages {
+        flex-wrap: wrap;
+    }
+
+    .blockUploadImages .blockImage img {
+        //width: 20px;
+    }
+
+    .v-dropdown-item[data-v-138dff1d] {
+        font-size: calc(1rem) !important;
+    }
+
+    .spanRightMobile {
+        float: right !important;
+    }
+
+    .textForCheckBox {
+        font-size: calc(0.94rem) !important;
+    }
+
+    .buttonOption button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .btnFunc .btnAction img {
+        width: 20px;
+    }
+
+    .btnSize {
+        font-size: calc(0.87rem);
+        width: 164px !important;
+    }
+
+    .infrastruct .btnViewFull {
+        width: 100% !important;
+        justify-content: center;
+    }
+    .main-content__stage .caption {
+        /*padding-top: 1rem !important;*/
+        padding-bottom: 8px;
+    }
+    .buttonOption button {
+        margin-top: 0.5rem !important;
+    }
+    .block__price {
+        flex-wrap: wrap;
+    }
+    .block__price .btnInformation {
+        margin-top: 0.5rem !important;
+        margin-bottom: 1rem !important;
+        margin-left: 0 !important;
+    }
+    .blockTypeLiveClose {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 1em !important;
+    }
+    .blockTypeLiveClose:last-child {
+        padding-bottom: 0 !important;
+    }
+    .infoAboutAddress .select-wrapper {
+        padding-top: 0 !important;
+        margin-bottom: 0;
+    }
+    .text__rules .confidently {
+        text-align: left;
+    }
+    .descriptionObject .label__service {
+        font-size: calc(0.93rem);
+        height: 38px;
+    }
+    .typeLive .block__title .caption {
+        padding-bottom: 0;
+        font-weight: bold;
+    }
+    .btnNextPrev button,
+    .blockMark .congratulations,
+    .blockMark .subtitle {
+        font-size: calc(0.875rem);
+    }
+    .blockSite-mark {
+        flex-wrap: wrap;
+    }
+    .blockMark .congratulations {
+        padding-left: 0 !important;
+    }
+    .blockMark .buttonSportObjects {
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+        font-size: calc(0.93rem);
+    }
+    .blockMark .textCheckMark {
+        padding-right: 1rem !important;
+        padding-left: 0 !important;
+    }
+    .blockMark img {
+        top: 0 !important;
+        width: 25px;
+    }
+    .title__stage {
+        font-size: calc(1.375rem) !important;
+    }
+    .price .priceMin {
+        font-weight: bold !important;
+    }
+    .promotion .object-block__descr {
+        font-weight: normal;
+    }
+    .user-type__list .type-list__item {
+        padding: 0 !important;
+    }
+    .footer__promotion .title__promotion {
+        font-size: calc(1.25rem);
+        max-width: inherit !important;
+    }
+    .pay__promotion button {
+        width: 164px !important;
+    }
+    .btnPrevAndNext button {
+        font-size: calc(0.875rem);
+        width: 100% !important;
+    }
+    .btnPrevAndNext form {
+        width: 100% !important;
+    }
+
+    .thirdStage {
+        & .pay__promotion {
+            flex-wrap: wrap !important;
+
+            button {
+                width: 100% !important;
+            }
+        }
+    }
+}

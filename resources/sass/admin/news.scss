@@ -1,0 +1,21 @@
+.sb-view-news {
+    & .sb-view-news__article {
+        border-radius: 10px;
+        border: 1px solid lightgray;
+    }
+
+    & .sb-date-and-view__view {
+        &::before {
+            content: url('/icons/eye.svg');
+            margin-right: 7px;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    & .sb-view-news__block-social {
+        & .sb-social {
+            margin-right: 20px;
+        }
+    }
+}

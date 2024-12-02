@@ -1,0 +1,32 @@
+/*@import url(../css/fonts.css);*/
+.button {
+    font-family: 'Muller';
+    background-color: #E45868;
+    padding: 1rem 2rem;
+}
+
+header {
+    padding: 30px;
+}
+
+nav {
+    padding: 0;
+}
+
+.navbar-brand__logo {
+    color: #fff;
+    font-family: 'Muller';
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-brand__logo span {
+    color: #E45868;
+}
+
+.navbar-brand__description {
+    opacity: .5;
+    font-family: 'Montserrat';
+    font-weight: regular;
+    font-size: 12px;
+}

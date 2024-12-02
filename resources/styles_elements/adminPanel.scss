@@ -1,0 +1,71 @@
+.header-block__title {
+    padding-right: 40px;
+}
+
+#tabs_customers-performers .nav-item {
+    min-width: 200px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.search_button {
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+    margin-top: -9px;
+    outline: none;
+    border: 0;
+    background: transparent;
+    margin-right: 10px;
+}
+
+table .sort {
+    cursor: pointer;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.settings-performers__button button {
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.settings-performers__button a {
+    border: 1px solid black;
+}
+
+.settings-performers__button a:hover {
+    background-color: lightgrey;
+}
+
+.settings-performers .settings-performers__button_active {
+    background-color: lightgray !important;
+}
+
+#tabs_customers-performers .nav-item {
+    border: 1px solid black;
+    text-decoration: none !important;
+}
+
+#tabs_customers-performers .nav-item a {
+    color: black;
+}
+
+#tabs_customers-performers .nav-item .active {
+    background-color: lightgrey;
+}
+
+.admin_block_image {
+    width: 100px;
+    height: 80px;
+}

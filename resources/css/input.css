@@ -1,0 +1,104 @@
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 60px;
+
+    background: #FAFAFA;
+    -webkit-box-shadow: 0 3px 6px #1030561A;
+    box-shadow: 0 3px 6px #1030561A;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type=radio]{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    border-radius: 50%;
+}
+input[type=radio]:checked{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #e45868;
+    border: 5px solid white;
+}
+
+  
+  
+
+input::-webkit-input-placeholder, input {
+    color: #0B3158;
+    font-family: 'Muller', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input:-ms-input-placeholder, input {
+    color: #0B3158;
+    font-family: 'Muller', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input::-ms-input-placeholder, input {
+    color: #0B3158;
+    font-family: 'Muller', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+input::placeholder, input {
+    color: #0B3158;
+    font-family: 'Muller', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+label {
+    position: relative;
+    padding-left: 35px;
+}
+
+label.agreeRules::before {
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    top: 30%;
+}
+
+@media (max-width: 768px) {
+    input {
+        width: auto;
+        margin: 0;
+        height: 55px;
+    }
+
+    input, input::-webkit-input-placeholder {
+        font-size: 16px;
+    }
+
+    input, input:-ms-input-placeholder {
+        font-size: 16px;
+    }
+
+    input, input::-ms-input-placeholder {
+        font-size: 16px;
+    }
+
+    input, input::placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .inputBlock__radioButton__text {
+        width: 450px;
+    }
+}
+
+/*# sourceMappingURL=input.css.map */

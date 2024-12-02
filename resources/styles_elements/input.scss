@@ -1,0 +1,50 @@
+//@import '../sass/_variables.scss';
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 60px;
+    background: $bg-white;
+    box-shadow: 0 3px 6px #1030561A;
+    border-radius: 10px;
+    text-align: center;
+
+    &[type="radio"] {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        display: none;
+
+        &:checked + label::before {
+            background: $bg-red;
+
+        }
+    }
+}
+
+label {
+    position: relative;
+    padding-left: 35px;
+
+    /*&::before {
+        content: "";
+        background: white;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        border: 5px solid white;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+    }*/
+}
+
+
+@media(max-width: 768px) {
+    input {
+        width: auto;
+        margin: 0;
+        height: 55px;
+    }
+}

@@ -1,0 +1,934 @@
+.border-rounded {
+    border-radius: 10px !important;
+}
+
+.request-object {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid #BAC4DF;
+
+    & .captionObject {
+        font-size: calc(1.5rem);
+        font-weight: bold;
+        color: #0B3158;
+    }
+}
+
+.request-object .objectId {
+    font-size: calc(1.125rem);
+    font-weight: normal;
+}
+
+.request-object .field-green, .request-object .field,
+.request-object .field-blue {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.request-object .field-green {
+    border: 1px solid #1A9536;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.request-object .field {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.info-request-object .create .title {
+    font-size: calc(1.125rem);
+    color: #0B3158;
+}
+
+.info-request-object .create .field-green p,
+.info-request-object .create .field p,
+.info-request-object .create .price p,
+.block-info p {
+    font-size: calc(1rem);
+    color: #0B3158;
+}
+
+.info-request-object .create .field-blue {
+    background-color: #6283e5;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.info-request-object .create .field-blue p {
+    color: white;
+    font-size: calc(1rem);
+}
+
+.request-object .arrow-button,
+.active-order .arrow-button,
+.container-request .arrow-button {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+}
+
+.info-full-request-object {
+    border: 1px solid #BAC4DF;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+.info-full-request-object .modal-info-object-request {
+    background-color: white;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.info-full-request-object .modal-info-object-request .title-info,
+.info-full-request-object .modal-info-object-request .body-info,
+.executor-body {
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .ispr,
+.info-full-request-object .responseExecutors .ispr,
+.container-request .executor-title .title-info .ispr,
+.ispr {
+    font-size: calc(1.25rem) !important;
+    font-weight: bold;
+    color: #0b3158 !important;
+}
+
+main.proposal-card {
+    p {
+        font-size: 18px;
+
+        &.captionText_l {
+            color: #59728B;
+        }
+    }
+
+    .request-object {
+        padding: 1.375rem 2.5rem;
+
+        &__title {
+            padding: 1.375rem 2.5rem;
+        }
+
+        & .info-full-request-object {
+            border: none;
+        }
+    }
+
+    .request-object.customer {
+        padding: 0;
+        border-radius: 10px;
+
+        & .executor-body, & .executor-footer, {
+            padding: 0 !important;
+        }
+    }
+
+    .executor-objects {
+        .emailSvg {
+            width: 49px !important;
+            min-width: 49px;
+        }
+
+        .notification-green, .notification-red, .sb-application-status__id {
+            white-space: nowrap;
+        }
+    }
+
+    & .executor-title {
+        padding: 0 2.5rem;
+
+        .right {
+            button {
+                border-radius: 10px;
+                height: 49px !important;
+            }
+        }
+    }
+
+    & .executor-body {
+        padding: 0 2.5rem;
+
+        & .buta {
+            margin: 0 5px 0 0;
+        }
+
+        & .butt {
+            margin: 0 5px 0 0;
+        }
+
+        & .butn {
+            margin: 0 5px 0 0;
+            padding: 0.625rem 1.5rem !important;
+        }
+
+        & .captionText_l {
+            // margin: 10px 0 10px 0;
+        }
+    }
+
+    & .executor-footer {
+        padding: 0 2.5rem;
+    }
+
+    .arrow-button[aria-expanded="true"] {
+        transform: rotate(180deg);
+    }
+
+    div[aria-expanded="true"] .border-rounded {
+        border-radius: 0 !important;
+    }
+    /*.border-rounded .arrow-button[aria-expanded="true"] {
+        border-radius: 10px 10px 0 0 !important;
+    }*/
+}
+
+.info-full-request-object .modal-info-object-request .title-info .notification {
+    background-color: #F3A54C;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 500px;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .notification-red {
+    background-color: #E45868;
+    min-width: 210px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .notification-green {
+    background-color: #52AF67;
+    min-width: 210px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .button {
+    height: 50px;
+    border-radius: 10px;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .btn-delete {
+    width: 200px;
+}
+
+.info-full-request-object .modal-info-object-request .title-info .btn-delete span {
+    color: #E45868;
+    font-size: calc(1.06rem);
+}
+
+.info-full-request-object .modal-info-object-request .title-info .emailSvg,
+.container-request .title-info .emailSvg {
+    width: 50px;
+    height: 50px;
+}
+
+.info-full-request-object .modal-info-object-request.tender .title-info {
+    background-color: #F2F5FF;
+    border-radius: 10px 10px 0 0;
+}
+
+.textl {
+    font-size: calc(1.125rem) !important;
+    color: #59728B !important;
+}
+
+.white3-2 {
+    border-right: none;
+}
+
+.butb p, .buta p, .butg p, .butt p {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.butt .country {
+    color: #6283E5;
+}
+
+.body-info .captionText_l, .footer-info .captionText_l {
+    font-size: calc(1.125rem);
+    color: #59728B;
+}
+
+.footer-info .text1,
+.executor-footer .textl {
+    color: #59728B;
+    font-size: calc(1.125rem);
+}
+
+.footer-info .message-text,
+.executor-footer .message-text {
+    color: #0B3158;
+    font-size: calc(1rem);
+}
+
+.button-icon.blue {
+    border: 1px solid rgb(98, 131, 229);
+}
+
+.block-info-filter p,
+.block-info-filter .option label {
+    font-size: calc(1.125rem);
+    color: #32325D;
+    font-weight: bold;
+}
+
+.block-info-filter .option .valute {
+    font-weight: lighter;
+    font-size: calc(1rem);
+}
+
+.block-info-filter .option .price {
+    font-size: calc(1.06rem);
+    color: #32325D;
+}
+
+input.date {
+    height: 50px;
+    width: 225px;
+}
+
+input.date, input.sum {
+    color: #32325D;
+    font-size: calc(1.06rem);
+}
+
+input.date::placeholder, input.sum::placeholder {
+    color: #32325D;
+    font-size: calc(1.06rem);
+}
+
+input.date-moz-placeholder {
+    color: #32325D;
+}
+
+input.date::-webkit-input-placeholder {
+    color: #32325D;
+}
+
+input.sum::placeholder {
+    text-align: center;
+}
+
+input.sum {
+    height: 50px;
+    width: 130px;
+}
+
+.block-info-filter .select-wrapper .v-select-toggle {
+    height: 50px !important;
+}
+
+.active-filter-count {
+    color: white;
+    background-color: #6283E5;
+    border-radius: 4px;
+    padding: 2px 8px;
+}
+
+.title-info .num-deal {
+    font-size: calc(1rem);
+    color: #0B3158;
+}
+
+.request-object .border-green {
+    border: 1px solid #56C46F;
+    border-radius: 10px;
+}
+
+.request-object .border-green span {
+    color: #4B8157;
+    font-size: calc(1.06rem);
+}
+
+.request-object .border-green .countResponse {
+    color: white;
+    background-color: #6FB77F;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+.selectCustomer {
+    background-color: #56C46F;
+}
+
+.nonSelectCustomer {
+    background-color: #E45868;
+}
+
+.selectCustomer, .nonSelectCustomer {
+    font-size: calc(1.06rem);
+    border-radius: 10px;
+    color: white;
+    width: 230px;
+}
+
+.title-info .blockDeal {
+    height: 50px;
+}
+
+
+/*Заявки тендеры*/
+.info-full-request-object .responseExecutors {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.responseExecutors .allResponses,
+.responseExecutors .cancelResponses {
+    border-radius: 10px;
+}
+
+.responseExecutors button span {
+    font-size: calc(1rem);
+}
+
+.countCancelResponses {
+    color: #E45868;
+}
+
+.responseExecutors .cancelResponses span {
+    color: #E45868;
+}
+
+.responseExecutors .button-blue {
+    color: white;
+}
+
+.responseExecutors .executor-response {
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.responseExecutors .executor-response .title-info,
+.responseExecutors .executor-response .body-info,
+.executor-body {
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.responseExecutors .executor-response .title-info .dealSvg,
+.container-request .executor-title .right .dealSvg {
+    background-color: #56C46F;
+    border: none;
+}
+
+.dealSvg {
+    background-color: #56C46F;
+    border: none;
+    border-radius: 10px !important;
+}
+
+.responseExecutors .executor-response .request-object {
+    border: none;
+    border-bottom: 1px solid #BAC4DF;
+}
+
+.buta, .butg {
+    height: 37px;
+    align-items: center;
+    display: flex;
+    //margin-right: 0.5rem;
+    margin-bottom: 0.5rem !important;
+    white-space: nowrap;
+}
+
+.responseExecutors .executor-response .title-info .btn-delete {
+    border-radius: 10px;
+}
+
+/*Исполнитель заявки на объекты*/
+.container-request .executor-body {
+    border: 1px solid #BAC4DF;
+    border-top: none;
+    background-color: white;
+}
+
+.container-request .executor-footer {
+    border: 1px solid #BAC4DF;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+}
+
+.container-request.executor-objects {
+    border-radius: 10px;
+    border: 1px solid #BAC4DF;
+    background-color: white;
+}
+
+.container-request.executor-objects .request-object,
+.container-request.executor-objects .executor-body,
+.container-request.executor-objects .executor-footer {
+    //border-bottom: 1px solid #BAC4DF;
+    border: none;
+    background-color: transparent;
+}
+
+/*Отклики на тендеры исполнитель*/
+.container-request.tender .ispr {
+    font-size: calc(1.25rem);
+    font-weight: bold;
+    color: #0B3158;
+}
+
+.your-response-non__active {
+    background-color: white;
+    border: 1px solid #BAC4DF;
+    border-radius: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.notification-orange {
+    background-color: #F3A54C;
+}
+
+.notification-blue {
+    background-color: #6283E5;
+}
+
+.notification-green {
+    background-color: #56C46F;
+}
+
+.notification-red {
+    background-color: #E45868;
+}
+
+.notification-orange, .notification-blue,
+.notification-green, .notification-red {
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    width: 345px
+}
+
+.notification-orange span, .notification-blue span,
+.notification-green span, .notification-red span {
+    font-size: calc(1.02rem);
+    color: white;
+}
+
+.search-and-filter {
+    & input[type=search] {
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+    .active-archive__button button span {
+        font-size: calc(0.97rem);
+    }
+    .container-request.tender .rating-messages {
+        margin-top: -25px !important;
+    }
+    main.proposal-card .ctnPad {
+        padding-right: 2.5rem !important;
+        padding-left: 2.5rem !important;
+    }
+    .request-object {
+        padding: 1rem !important;
+
+        & .captionObject {
+            //font-size: calc(1.06rem);
+            font-size: calc(0.94rem);
+        }
+
+        & .objectId {
+            padding-left: 0 !important;
+        }
+    }
+    .container-request {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .request-object .captionObject {
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .info-request-object .create .field-green p,
+    .info-request-object .create .field p,
+    .info-request-object .create .price p {
+        font-size: calc(0.88rem);
+    }
+    .living p {
+        font-size: calc(0.88rem);
+        color: #0B3158;
+    }
+    .request-object .field-green,
+    .request-object .field,
+    .request-object .field-blue {
+        padding: 10px 10px !important;
+        height: 37px !important;
+    }
+    .rating-messages {
+        width: 100%;
+        padding-top: 2rem;
+    }
+    .rating-messages .rating {
+        padding-left: 0 !important;
+    }
+    .info-full-request-object .modal-info-object-request .title-info .ispr,
+    input.date::placeholder, input.sum::placeholder,
+    input.searchField::placeholder {
+        font-size: calc(0.875rem);
+    }
+    .body-info .captionText_l,
+    .footer-info .captionText_l,
+    .executor-footer .captionText_l,
+    .executor-body .captionText_l {
+        color: #0B3158;
+        font-size: calc(0.875rem);
+        font-weight: bold;
+    }
+    .title-info .notification {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        min-width: 190px !important;
+    }
+    .title-info .notification p {
+        font-size: calc(0.81rem);
+    }
+    .title-info .right {
+        flex-wrap: wrap;
+    }
+    .modal-info-object-request {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .butb p, .buta p, .butg p, .butt p, .butn p {
+        font-size: calc(0.81rem);
+    }
+    .white3-2 {
+        border: none;
+        background-color: transparent;
+    }
+    .footer-info .message-text {
+        font-size: calc(0.81rem);
+    }
+    /*.filters-data {
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }*/
+    .block-info-filter p, .block-info-filter .option label {
+        font-size: 1rem;
+    }
+    input.sum {
+        padding: 1rem !important;
+    }
+    input.date, input.sum,
+    .block-info-filter .select-wrapper .v-select-toggle {
+        height: 40px !important;
+        font-size: calc(0.875rem) !important;
+        color: #0B3158;
+        display: flex;
+        align-items: center !important;
+    }
+    input.searchField {
+        height: 50px !important;
+    }
+    .select-wrapper .selectpicker {
+        margin-bottom: -20px;
+    }
+    .title-info .num-deal {
+        font-size: calc(0.875rem);
+    }
+    .info-full-request-object .modal-info-object-request .title-info .notification-green {
+        min-width: 140px !important;
+    }
+    .info-full-request-object .modal-info-object-request .title-info .notification-red {
+        width: 100%;
+    }
+
+    /*Заявки тендеры*/
+    .info-full-request-object .modal-info-object-request .title-info .btn-delete.tender {
+        height: 40px;
+    }
+    .info-full-request-object .modal-info-object-request.tender .title-info .btn-delete span {
+        font-size: calc(0.81rem);
+    }
+    .responseExecutors {
+        margin: 0 !important;
+    }
+    .responseExecutors button {
+        border-radius: 10px;
+    }
+    .responseExecutors .reject-responses,
+    .responseExecutors .reject-responses .allResponses,
+    .responseExecutors .btn-delete.tender,
+    .responseExecutors .block__cancel-all-responses {
+        width: 100%;
+    }
+    .responseExecutors .reject-responses .cancelResponses {
+        margin-right: 0 !important;
+    }
+    .responseExecutors button span {
+        font-size: calc(0.875rem);
+    }
+    .executor-response p.ispr {
+        font-size: calc(0.875rem);
+    }
+    .request-object .create.address .caption,
+    .responseExecutors .executor-response .btn-action button {
+        font-size: calc(0.81rem);
+    }
+    .request-object .create.mobile-address .subtitle {
+        font-size: calc(0.81rem) !important;
+        color: #0B3158;
+    }
+    .responseExecutors .executor-response .btn-action .dealSvg {
+        background-color: #56C46F;
+        border: none;
+    }
+    .responseExecutors .executor-response .btn-action button {
+        border-radius: 10px;
+    }
+    .responseExecutors .executor-response .info-region .butt.region,
+    .responseExecutors .executor-response .info-region .butn.city,
+    .info-full-request-object .info-region .butt.region,
+    .info-full-request-object .info-region .butn.city {
+        order: -1 !important;
+    }
+    .white3-2 {
+        margin-top: -20px !important;
+    }
+    .info-full-request-object .modal-info-object-request .body-info,
+    .responseExecutors .executor-response .body-info,
+    .executor-body {
+        padding-bottom: 1rem !important;
+    }
+    .responseExecutors .executor-response .cancel-block {
+        display: block !important;
+        width: 100%;
+    }
+    .responseExecutors .executor-response .title-info {
+        padding-right: 1.5rem !important;
+    }
+    .responseExecutors .executor-response .title-info .cancel-block .btn-delete {
+        justify-content: space-between !important;
+    }
+
+    /*#region Исполнитель заявки на объекты*/
+    main.proposal-card {
+        & .executor-title {
+            padding: 1rem;
+
+            button.button-icon, .arrow-button {
+                min-width: 39px !important;
+                min-height: 39px !important;
+                width: 39px !important;
+                height: 39px !important;
+            }
+
+            .right {
+                button {
+                    border-radius: 10px;
+                    height: 39px !important;
+                }
+            }
+
+            & .sb-status-action {
+                & button {
+                    width: 50% !important;
+
+                    span {
+                        font-size: 13px;
+                    }
+                }
+
+                & .blockDeal {
+                    //  width: auto;
+                    height: 39px;
+
+                    & .sb-application-status__id {
+                        height: inherit;
+                    }
+
+                    & img {
+                        width: 20px;
+                    }
+                }
+            }
+
+            & .sb-direct-status {
+                width: 100% !important;
+
+                & .right {
+                    width: 100% !important;
+                    flex-direction: column !important;
+
+                    & .sb-status-action {
+                        width: 100% !important;
+                    }
+                }
+            }
+        }
+
+        & .executor-body {
+            padding: 0;
+
+            & .captionText_l {
+                color: $main-dark-blue-text;
+                margin: 0;
+                font-size: 14px;
+            }
+
+            & .buta {
+                margin-bottom: 5px;
+
+                p {
+                    white-space: nowrap;
+                    font-size: 13px !important;
+                }
+            }
+
+            & .butt {
+                margin-bottom: 5px;
+            }
+
+            & .butn {
+                margin-bottom: 5px;
+            }
+
+            & .butg, & .btn {
+                p {
+                    font-size: 13px !important;
+                }
+            }
+
+            & .date-of-stay {
+                flex-wrap: wrap !important;
+
+                & .buta {
+                    margin-top: 2px !important;
+                }
+            }
+
+            & .white3-2 {
+                margin-top: 0 !important;
+            }
+        }
+
+        & .executor-footer {
+            //padding: 0 !important;
+
+            & .captionText_l {
+                color: $main-dark-blue-text;
+            }
+        }
+
+        .request-object.customer {
+            padding: 0 !important;
+
+            .request-object__title, .info-full-request-object {
+                padding: 1rem !important;
+            }
+
+            .sb-direct-status {
+                .right {
+                    width: 100% !important;
+
+                    .sb-status-action {
+                        width: 100% !important;
+
+                        .blockDeal {
+                            flex: 1 1 auto !important;
+                        }
+                    }
+                }
+            }
+
+            .arrow-button {
+                width: 36px;
+                height: 36px;
+                min-width: 36px !important;
+                min-height: 36px !important;
+
+                img {
+                    min-width: 15px;
+                }
+            }
+
+            .info-full-request-object {
+                //padding: 0 !important;
+
+                .title-info {
+                    padding: 1rem !important;
+                }
+            }
+
+
+        }
+
+        .request-object__title {
+            padding: 0 !important;
+        }
+
+        .container-request.executor-objects .create.padding {
+            padding-bottom: 1rem !important;
+        }
+
+        .executor-title .btn-action button span {
+            font-size: calc(0.81rem);
+        }
+
+        .active-archive__button {
+            & button {
+                width: 50%;
+            }
+        }
+
+        .search-and-filter {
+            & .sb-button-blue {
+                width: 50px;
+            }
+        }
+
+        .sb-filter__block {
+            p {
+                &.caption-filters {
+                    font-size: 20px !important;
+                }
+            }
+
+            label, p {
+                font-size: 16px !important;
+                font-weight: bold !important;
+                margin-top: 10px;
+            }
+
+            input[type="date"]::-webkit-calendar-picker-indicator {
+                color: rgba(0, 0, 0, 0);
+                opacity: 1;
+                display: block;
+                background: url('/icons/direct/calendar.svg') no-repeat;
+                width: 17px;
+                height: 17px;
+                border-width: thin;
+                padding-right: 10px;
+            }
+        }
+    }
+    /*#endregion*/
+
+
+    /*Заказы и оплаты*/
+    .block-info {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+
+

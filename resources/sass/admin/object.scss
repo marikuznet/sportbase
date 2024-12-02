@@ -1,0 +1,45 @@
+input {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #bac4df;
+    padding: 16px 25px;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    resize: none;
+    height: 50px !important;
+}
+
+.input-readonly {
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.typeLive, .infrastruct {
+    background-color: white !important;
+    border-radius: 15px;
+}
+
+.typeLive .block__title {
+    font-weight: bolder;
+}
+
+.infrastruct .el__title {
+    font-weight: bold;
+}
+
+.blockImage {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 3px;
+}
+
+
+.sb-checkbox {
+    height: auto !important;
+}

@@ -1,0 +1,59 @@
+/*!
+  * CoreUI class-toggler.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI collapse.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI data.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI dropdown.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI event-handler.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI manipulator.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI polyfill.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI selector-engine.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+  * CoreUI sidebar.js v3.4.0 (https://coreui.io)
+  * Copyright 2020 creativeLabs Łukasz Holeczek
+  * Licensed under MIT (https://coreui.io)
+  */
+
+/*!
+ * perfect-scrollbar v1.5.3
+ * Copyright 2021 Hyunje Jun, MDBootstrap and Contributors
+ * Licensed under MIT
+ */

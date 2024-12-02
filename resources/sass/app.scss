@@ -1,0 +1,66 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css");
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+//@import url("../css/normalize.css");
+//@import url('../css/fonts.css');
+@import 'variables';
+/*@import "../styles_elements/styles-elements", "../sass/profile.scss", '../sass/notification.scss', '../sass/security.scss',
+'../sass/payment.scss', '../sass/stages.scss', '../sass/sportObjects.scss', '../sass/tenders.scss',
+'../sass/objectsCatalog.scss', '../sass/directRequest.scss', '../sass/customer/orders.scss', '../sass/deal/payment.scss',
+'../sass/modal.scss', '../sass/deal.scss', '../sass/news.scss', '../sass/contacts.scss';*/
+@import url("../sass/normalize.css");
+@import url("../sass/fonts.css");
+@import "../sass/base.scss";
+@import "../styles_elements/styles-elements";
+@import "../sass/main.scss";
+@import '../sass/stages.scss';
+@import '../sass/tenders.scss';
+@import '../sass/sportObjects.scss';
+@import "../sass/profile.scss";
+@import '../sass/notification.scss';
+@import '../sass/security.scss';
+@import '../sass/objectsCatalog.scss';
+@import '../sass/directRequest.scss';
+@import '../sass/tendersRequest.scss';
+@import '../sass/customer/orders.scss';
+@import '../sass/deal/payment.scss';
+@import '../sass/modal.scss';
+@import '../sass/deal.scss';
+@import '../sass/news.scss';
+@import '../sass/contacts.scss';
+
+@import '~bootstrap/scss/bootstrap';
+
+.text-muted {
+    margin-bottom: 5px !important;
+}
+
+.btn-stylization {
+    background-color: rgba(182, 109, 255, 1) !important;
+}
+
+.remember-me-link {
+    justify-content: flex-end;
+}
+
+.arrow-down.sb-arrow-rotate-225:after {
+    transform: rotate(225deg) !important;
+}
+
+.accordion-button.sb-arrow-rotate-0:after {
+    transform: rotate(0deg) !important;
+}
+
+button.v-select-toggle.sb-border-bottom-none {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.v-select-toggle {
+    align-items: stretch !important;
+    box-shadow: 0 3px 6px #1030561a !important;
+}
+
+.v-select {
+    display: block !important;
+}
